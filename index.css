@@ -89,6 +89,10 @@ img, p, li{
 
 /* PARTIE RESPONSIVE A 500PX */
 @media only screen and (max-width: 500px){
+    body{
+        border: none;
+    }
+    
     .centre-responsive{
         display: flex;
         justify-content: center;
@@ -103,6 +107,16 @@ img, p, li{
 
     .retourenhaut{
         display: none;
+    }
+
+    .btn{
+        padding: 10px 10px;
+        font-size: 15px;
+        border-radius: 0%;
+    }
+
+    .container{
+        border: 2px solid black;
     }
 }
 
