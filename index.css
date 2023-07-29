@@ -2,6 +2,7 @@ body{
     max-width: 1500px;
     margin: auto;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border: 2px solid black;
 }
 
 .btn{
@@ -17,6 +18,14 @@ body{
     border-radius: 20px;
     position: relative;
     box-shadow: 0 6px #efa424;
+    
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .btn:hover{
@@ -38,6 +47,11 @@ h2, h1{
     font-size: 35px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 a.btn1{
     right: 20px;
     bottom: 20px;
@@ -51,7 +65,7 @@ img.icone{
     margin: 0;
 }
 
-.retour{
+.retourenhaut{
     position: fixed;
     bottom: 0;
     right: 0;
@@ -64,58 +78,20 @@ img.icone{
     background-color: red;
 }
 
-body{
-    max-width: 1500px;
-    margin: 0 auto;
-}
-
 img{
     width: 500px;
     height: 500px;
 }
 
+img, p, li{
+    margin-left: 10px;
+}
+
 /* PARTIE RESPONSIVE A 500PX */
 @media only screen and (max-width: 500px){
-    body{
-        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    }
-
-    .btn1{
-        display: none;
-    }
-
-    .btn{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .responsive-btn123{
-        margin: 10px 0;
-        font-size: 20px;
-        font-weight: lighter;
-        color: #333;
-        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-        outline: none;
-        border: none;
-        cursor: pointer;
-        border-radius: 20px;
-        position: relative;
-        box-shadow: 0 6px #efa424;
-    }
-
-    a{
-        text-decoration: none;
-    }
-
     .centre-responsive{
         display: flex;
         justify-content: center;
-    }
-
-    .container{
-        border: 2px solid black;
     }
 
     img{
@@ -125,8 +101,9 @@ img{
         margin-right: auto;
     }
 
-
-    h1, h2, h3, p{
-        text-align: center;
+    .retourenhaut{
+        display: none;
     }
 }
+
+/* FIN PARTIE RESPONSIVE */
