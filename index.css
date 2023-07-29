@@ -1,0 +1,132 @@
+body{
+    max-width: 1500px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.btn{
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+    padding: 25px 80px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #efa424;
+}
+
+.btn:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+.btn:active{
+    box-shadow: 0 0px #efa424;
+    top: 6px;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+h2, h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+a.btn1{
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    
+}
+
+img.icone{
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.retour{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+/* PARTIE RESPONSIVE A 500PX */
+@media only screen and (max-width: 500px){
+    body{
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+
+    .btn1{
+        display: none;
+    }
+
+    .btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive-btn123{
+        margin: 10px 0;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #333;
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 6px #efa424;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .centre-responsive{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container{
+        border: 2px solid black;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    h1, h2, h3, p{
+        text-align: center;
+    }
+}
