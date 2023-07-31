@@ -1,5 +1,48 @@
-/* body{
+body{
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    max-width: 1500px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+    padding: 25px 80px;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #efa424;
+}
+
+.btn:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+.btn:active{
+    box-shadow: 0 0px #efa424;
+    top: 6px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 h2{
@@ -38,6 +81,7 @@ img{
 
 p{
     font-size: 20px;
+    margin: 10px;
 }
 
 mark.bleu{
@@ -53,54 +97,27 @@ mark.violet{
 }
 
 a.btn1{
-    right: 20px;
-    bottom: 20px;
+    right: 0px;
+    bottom: 0px;
     position: fixed;
-    
+    background-color: red;
+    border-radius: 50%;
 }
 
 img.icone{
     width: 50px;
     height: 50px;
     margin: 0;
-} */
+}
 
 @media only screen and (max-width: 500px){
     body{
-        background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    }
-
-    .btn1{
-        display: none;
-    }
-
-    .btn, .container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btn{
-        margin: 10px 0;
-        font-size: 20px;
-        font-weight: lighter;
-        color: #333;
-        background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-        outline: none;
         border: none;
-        cursor: pointer;
-        border-radius: 20px;
-        position: relative;
-        box-shadow: 0 6px #efa424;
     }
-
-    a{
-        text-decoration: none;
-    }
-
-    .container{
-        border: 2px solid black;
+    
+    .centre-responsive{
+        display: flex;
+        justify-content: center;
     }
 
     img{
@@ -108,11 +125,21 @@ img.icone{
         height: 300px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
     }
 
+    .btn{
+        padding: 10px 10px;
+        font-size: 15px;
+        border-radius: 0%;
+    }
 
-    h1, h2, h3, p{
-        text-align: center;
+    .container{
+        border: 2px solid black;
+    }
+
+    .btn1{
+        display: none;
     }
 }
 

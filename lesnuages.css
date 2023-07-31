@@ -29,6 +29,16 @@ h1{
     box-shadow: 0 6px #efa424;
 }
 
+.btn:hover{
+    box-shadow: 0 4px #efa424;
+    top: 2px;
+}
+
+.btn:active{
+    box-shadow: 0 0px #efa424;
+    top: 6px;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
@@ -163,5 +173,9 @@ img.icone{
         padding: 10px 10px;
         font-size: 15px;
         border-radius: 0%;
+    }
+
+    .btn1{
+        display: none;
     }
 }
