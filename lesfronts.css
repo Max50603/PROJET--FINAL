@@ -1,7 +1,7 @@
 body{
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    max-width: 1500px;
-    margin: 0 auto;
+    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
+    max-width: 1300px;
+    margin-left: 300px;
     border: 2px solid black;
 }
 
@@ -10,28 +10,43 @@ h1{
 }
 
 .btn{
-    margin: 20px 0;
-    font-size: 30px;
+    margin: 10px;
+    font-size: 20px;
     font-weight: lighter;
     color: #333;
-    padding: 25px 80px;
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 10px 20px;
+    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
     outline: none;
     border: none;
     cursor: pointer;
     border-radius: 20px;
     position: relative;
-    box-shadow: 0 6px #efa424;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
 }
 
 .btn:hover{
-    box-shadow: 0 4px #efa424;
+    box-shadow: 5px 5px 5px black;
     top: 2px;
 }
 
 .btn:active{
-    box-shadow: 0 0px #efa424;
+    box-shadow: 0 0px black;
     top: 6px;
+}
+
+nav{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
@@ -65,13 +80,10 @@ img.centre{
 
 img.left{
     float: left;
-    
 }
 
 img.right{
     float: right;
-    margin-left: 10px;
-    
 }
 
 img{
