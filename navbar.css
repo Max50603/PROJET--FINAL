@@ -17,7 +17,7 @@
 .btn:hover{
     box-shadow: 5px 5px 5px black;
     top: 2px;
-    animation: rotate 1s infinite;
+    animation: rotate 0.7s forwards;
 }
 
 .btn:active{
@@ -43,7 +43,7 @@ nav{
     0%{
         rotate: 5deg;
     }
-    100%{
+    50%{
         rotate: -5deg;
     }
 }

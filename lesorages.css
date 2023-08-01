@@ -1,7 +1,7 @@
 body{
     max-width: 1300px;
     margin-left: 300px;
-    border: 2px solid black;
+    border: 1px solid black;
     background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
     font-family: sans-serif;
 }
@@ -14,20 +14,6 @@ h1{
 
 h2{
     text-align: center;
-}
-
-nav{
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: auto;
-    width: auto;
-    margin: 10px;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
 }
 
 .right{
@@ -52,7 +38,7 @@ nav{
 }
 
 .millieu:hover{
-    animation: transition 2s;
+    animation: transition 2s forwards;
 }
 
 .texterouge{
@@ -146,8 +132,6 @@ a{
         opacity: 1;
     }
 }
-
-
 /* FIN DES ANIMATIONS */
 
 /* DEBUT DE LA RESPONSIVE */
