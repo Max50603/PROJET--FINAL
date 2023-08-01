@@ -1,0 +1,49 @@
+.btn{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333;
+    padding: 10px 20px;
+    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+    width: 250px;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 5px black;
+    top: 2px;
+    animation: rotate 1s infinite;
+}
+
+.btn:active{
+    box-shadow: 0 0px black;
+    top: 6px;
+}
+
+nav{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes rotate{
+    0%{
+        rotate: 5deg;
+    }
+    100%{
+        rotate: -5deg;
+    }
+}

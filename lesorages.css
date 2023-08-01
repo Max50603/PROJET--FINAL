@@ -30,40 +30,10 @@ nav{
     flex-direction: column;
 }
 
-.btn{
-    margin: 10px;
-    font-size: 20px;
-    font-weight: lighter;
-    color: #333;
-    padding: 10px 20px;
-    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
-    outline: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    position: relative;
-    box-shadow: 5px 5px 5px black;
-    width: 250px;
-}
-
-.btn:hover{
-    box-shadow: 5px 5px 5px black;
-    top: 2px;
-}
-
-.btn:active{
-    box-shadow: 0 0px black;
-    top: 6px;
-}
-
 .right{
     float: right;
     width: 400px;
     height: 400px;
-}
-
-.millieu:hover{
-    animation: animationvgauche 2s;
 }
 
 .left{
@@ -78,6 +48,11 @@ nav{
 
 .millieu{
     margin-top: 85px;
+    opacity: 0;
+}
+
+.millieu:hover{
+    animation: transition 2s;
 }
 
 .texterouge{
@@ -161,17 +136,18 @@ a{
 }
 
 /* DEBUT DES ANIMATIONS */
-@keyframes animationvgauche{
+@keyframes transition{
     0%{
-        transform: translateX(0px);
-    }
-    50%{
-        transform: translateX(150px);
+        transform: translateX(-600px);
+        opacity: 0;
     }
     100%{
-        transform: translateY(150px);
+        transform: translateX(0px);
+        opacity: 1;
     }
 }
+
+
 /* FIN DES ANIMATIONS */
 
 /* DEBUT DE LA RESPONSIVE */
