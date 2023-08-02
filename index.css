@@ -1,7 +1,7 @@
 body{
     max-width: 1300px;
     margin-left: 300px;
-    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
+    background-color: grey;
     border: 2px solid black;
     font-family: sans-serif;
 }
@@ -104,35 +104,7 @@ h3{
 
 /* PARTIE RESPONSIVE A 500PX */
 @media only screen and (max-width: 500px){
-    body{
-        border: none;
-    }
     
-    .centre-responsive{
-        display: flex;
-        justify-content: center;
-    }
-
-    img{
-        width: 300px;
-        height: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .retourenhaut{
-        display: none;
-    }
-
-    .btn{
-        padding: 10px 10px;
-        font-size: 15px;
-        border-radius: 0%;
-    }
-
-    .container{
-        border: 2px solid black;
-    }
 }
 
 /* FIN PARTIE RESPONSIVE */

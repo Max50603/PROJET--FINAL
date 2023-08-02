@@ -2,9 +2,8 @@
     margin: 10px;
     font-size: 20px;
     font-weight: lighter;
-    color: #333;
     padding: 10px 20px;
-    background: linear-gradient(70deg, rgba(75,191,194,1) 0%, rgba(214,213,93,1) 50%, rgba(75,191,194,1) 100%);
+    background-color: rgb(70, 70, 70);
     outline: none;
     border: none;
     cursor: pointer;
@@ -17,7 +16,7 @@
 .btn:hover{
     box-shadow: 5px 5px 5px black;
     top: 2px;
-    animation: rotate 0.7s forwards;
+    animation: couleur 0.7s forwards;
 }
 
 .btn:active{
@@ -39,11 +38,11 @@
     flex-direction: column;
 }
 
-@keyframes rotate{
+@keyframes couleur{
     0%{
-        rotate: 5deg;
+        background-color: grey;
     }
-    50%{
-        rotate: -5deg;
+    100%{
+        background-color: yellow;
     }
 }
