@@ -12,6 +12,20 @@ body{
     width: auto;
 }
 
+.left{
+    float: left;
+    margin: 10px;
+}
+
+.right{
+    float: right;
+    margin: 10px;
+}
+
+.stopfloat{
+    clear: both;
+}
+
 p, li{
     font-size: 20px;
 }
@@ -58,6 +72,34 @@ img{
 
 img, p, li{
     margin-left: 10px;
+}
+
+.carre1, .carre2, .carre3{
+    width: 450px;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 1%;
+    box-shadow: 5px 5px 5px black;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toutcarre{
+    display: flex;
+    justify-content: center;
+}
+
+.pluspetit{
+    font-size: 15px;
+    margin: 10px;
 }
 
 /* PARTIE RESPONSIVE A 500PX */
