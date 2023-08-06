@@ -5,7 +5,6 @@ body{
     background-color: grey;
     border: 2px solid black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .responsive-btn123{
@@ -88,6 +87,18 @@ img, p, li{
     box-shadow: 5px 5px 5px black;
 }
 
+.rectangle1, .rectangle2{
+    width: 700px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 1%;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 h3{
     text-align: center;
     margin-top: 10px;
@@ -106,7 +117,76 @@ h3{
 
 /* PARTIE RESPONSIVE A 500PX */
 @media only screen and (max-width: 500px){
-    
-}
+    body{
+        width: auto;
+        height: auto;
+        border: none;
+        text-align: center;
+        margin: 10px;
+    }
 
+    p, li{
+        margin: 10px;
+        font-size: 16px;
+    }
+    
+    .btn1{
+        display: none;
+    }
+
+    .centre-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .pages{
+        position: initial;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid black;
+        width: auto;
+        height: 100px;
+    }
+
+    .btn{
+        margin: 0px;
+        width: auto;
+        height: 50px;
+        padding: 5px 10px;
+    }
+
+    .liens{
+        display: none;
+    }
+
+    .toutcarre{
+        display: block;
+        width: 324px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .carre1, .carre2, .carre3{
+        font-size: 16px;
+        width: 324px;
+    }
+
+    .rectangle1, .rectangle2{
+        width: auto;
+        height: auto;
+        margin: 10px auto;
+    }
+}
 /* FIN PARTIE RESPONSIVE */
