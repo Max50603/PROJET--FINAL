@@ -115,6 +115,38 @@ h3{
     margin: 10px;
 }
 
+/* PARTIE RESPONSIVE A 1300PX */
+@media only screen and (max-width: 1300px){
+    body{
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .toutcarre{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .btn, button{
+        font-size: 16px;
+        padding: 5px 10px;
+        width: 100px;
+        margin: 10px;
+    }
+}
 /* PARTIE RESPONSIVE A 500PX */
 @media only screen and (max-width: 500px){
     body{
@@ -123,6 +155,9 @@ h3{
         border: none;
         text-align: center;
         margin: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
     }
 
     p, li{
@@ -145,11 +180,11 @@ h3{
         height: 300px;
     }
 
-    .pages{
+    .pages, .liens{
         position: initial;
     }
 
-    .container{
+    .container, .container1{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -157,18 +192,17 @@ h3{
         align-items: center;
         border: 2px solid black;
         width: auto;
-        height: 100px;
+        height: auto;
     }
 
-    .btn{
+    .btn, button{
         margin: 0px;
         width: auto;
         height: 50px;
         padding: 5px 10px;
-    }
-
-    .liens{
-        display: none;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: grey;
     }
 
     .toutcarre{
