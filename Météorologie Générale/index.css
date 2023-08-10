@@ -76,7 +76,7 @@ img, p, li{
 }
 
 .carre1, .carre2, .carre3{
-    width: 450px;
+    width: auto;
     height: auto;
     margin-top: 0px;
     margin-right: 10px;
@@ -88,7 +88,7 @@ img, p, li{
 }
 
 .rectangle1, .rectangle2{
-    width: 700px;
+    width: auto;
     height: auto;
     border: 1px solid black;
     box-shadow: 5px 5px 5px black;
@@ -115,7 +115,49 @@ h3{
     margin: 10px;
 }
 
-/* PARTIE RESPONSIVE A 1300PX */
+/* PARTIE RESPONSIVE*/
+@media only screen and (max-width: 1800px){
+    .toutcarre{
+        display: block;
+    }
+
+    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    body{
+        width: auto;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .toutcarre{
+        display: block;
+    }
+
+    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
+        height: auto;
+        width: auto;
+        margin: 10px;
+    }
+
+    img{
+        width: 450px;
+        height: 450px;
+    }
+
+    .btn, button{
+        font-size: 18px;
+        padding: 5px 10px;
+        width: 100px;
+        margin: 10px;
+    }
+}
+
 @media only screen and (max-width: 1300px){
     body{
         width: auto;
@@ -146,8 +188,12 @@ h3{
         width: 100px;
         margin: 10px;
     }
+
+    .btn1{
+        display: none;
+    }
 }
-/* PARTIE RESPONSIVE A 500PX */
+
 @media only screen and (max-width: 500px){
     body{
         width: auto;
