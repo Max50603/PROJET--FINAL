@@ -200,7 +200,7 @@ img.icone{
         font-size: 18px;
     }
 
-    .btn1{
+    .btn1, .disparaitre{
         display: none;
     }
 
@@ -209,7 +209,7 @@ img.icone{
         height: 300px;
     }
 
-    .pages, .liens{
+    .pages, .container1{
         position: initial;
     }
 
