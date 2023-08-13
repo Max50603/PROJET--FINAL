@@ -58,6 +58,8 @@ h2, h3{
     right: 0;
     bottom: 0;
     background-color: red;
+    border: none;
+    box-shadow: none;
 }
 
 p{
@@ -77,6 +79,18 @@ img{
 .image-centre{
     display: flex;
     justify-content: space-around;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.stopfloat{
+    clear: both;
 }
 
 .rotate{
