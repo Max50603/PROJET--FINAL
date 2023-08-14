@@ -50,6 +50,10 @@ h2, h3{
     background-color: green;
 }
 
+.rouge{
+    background-color: red;
+}
+
 .icone{
     width: 50px;
     height: 50px;
@@ -68,6 +72,11 @@ p{
     font-size: 20px;
 }
 
+li{
+    font-size: 20px;
+    margin: 10px;
+}
+
 img{
     margin: 10px;
     width: 500px;
@@ -79,18 +88,6 @@ img{
 .image-centre{
     display: flex;
     justify-content: space-around;
-}
-
-.right{
-    float: right;
-}
-
-.left{
-    float: left;
-}
-
-.stopfloat{
-    clear: both;
 }
 
 .rotate{
@@ -138,6 +135,65 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.centre{
+    margin-top: 200px;
+}
+
+.centreimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.petit{
+    width: 200px;
+    height: 200px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 500px);
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-row: 1;
+}
+
+.box2{  
+    grid-column-start: 2;
+    grid-row: 2;
+}
+
+.box3{
+    grid-column: 3;
+}
+
+.box4{
+    grid-column: 4;
+}
+
+.box5{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box6{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.box7{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.box8{
+    grid-column: 4;
+    grid-row: 2;
 }
 
 /* DEBUT DES ANIMATIONS */
