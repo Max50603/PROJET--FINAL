@@ -36,9 +36,6 @@ a{
     padding: auto;
     width: auto;
     margin: 10px;
-}
-
-.container{
     display: flex;
     flex-direction: column;
 }

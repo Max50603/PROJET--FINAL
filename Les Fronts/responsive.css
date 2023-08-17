@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1490px){
+    .centre{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1140px){
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .centre{
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 500px;
+        height: auto;
+        border: none;
+    }
+
+    .btn1, .suppression-responsive{
+        display: none;
+    }
+
+    .centre-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centre{
+        margin-top: 10px;
+    }
+
+    .pages, .liens{
+        position: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px solid black;
+    }
+
+    a, p{
+        font-size: 16px;
+    }
+}

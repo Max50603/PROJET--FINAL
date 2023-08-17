@@ -7,12 +7,6 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.responsive-btn123{
-    display: flex;
-    justify-content: center;
-    width: auto;
-}
-
 .left{
     float: left;
     margin: 10px;
@@ -115,158 +109,73 @@ h3{
     margin: 10px;
 }
 
-/* PARTIE RESPONSIVE*/
-@media only screen and (max-width: 1800px){
-    .toutcarre{
-        display: block;
-    }
-
-    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
-        height: auto;
-        width: auto;
-        margin: 10px;
-    }
+/* PARTIE NAVBAR */
+.btn{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    background-color: grey;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    width: 250px;
 }
 
-@media only screen and (max-width: 1450px){
-    body{
-        width: auto;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-
-    .toutcarre{
-        display: block;
-    }
-
-    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
-        height: auto;
-        width: auto;
-        margin: 10px;
-    }
-
-    img{
-        width: 450px;
-        height: 450px;
-    }
-
-    .btn, button{
-        font-size: 18px;
-        padding: 5px 10px;
-        width: 100px;
-        margin: 10px;
-    }
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
 }
 
-@media only screen and (max-width: 1300px){
-    body{
-        width: auto;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    
-    .toutcarre{
-        display: block;
-        width: auto;
-        height: auto;
-    }
-
-    .carre1, .carre2, .carre3, .rectangle1, .rectangle2{
-        height: auto;
-        width: auto;
-        margin: 10px;
-    }
-
-    img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .btn, button{
-        font-size: 16px;
-        padding: 5px 10px;
-        width: 100px;
-        margin: 10px;
-    }
-
-    .btn1{
-        display: none;
-    }
+.btn:hover{
+    box-shadow: 5px 5px 5px black;
+    top: 2px;
+    animation: couleur 0.8s forwards;
 }
 
-@media only screen and (max-width: 500px){
-    body{
-        width: auto;
-        height: auto;
-        border: none;
-        text-align: center;
-        margin: 10px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 16px;
-        font-weight: 600;
-    }
+.btn:active{
+    box-shadow: 0 0px black;
+    top: 6px;
+}
 
-    p, li{
-        margin: 10px;
-        font-size: 16px;
-    }
-    
-    .btn1{
-        display: none;
-    }
+.pages{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: auto;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-    .centre-responsive{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .pages, .liens{
-        position: initial;
-    }
-
-    .container, .container1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        border: 2px solid black;
-        width: auto;
-        height: auto;
-    }
-
-    .btn, button{
-        margin: 0px;
-        width: auto;
-        height: 50px;
-        padding: 5px 10px;
-        font-size: 16px;
-        font-weight: 600;
+@keyframes couleur{
+    0%{
         background-color: grey;
     }
-
-    .toutcarre{
-        display: block;
-        width: 324px;
-        height: auto;
-        margin: 10px;
-    }
-
-    .carre1, .carre2, .carre3{
-        font-size: 16px;
-        width: 324px;
-    }
-
-    .rectangle1, .rectangle2{
-        width: auto;
-        height: auto;
-        margin: 10px auto;
+    100%{
+        background-color: yellow;
     }
 }
-/* FIN PARTIE RESPONSIVE */
+/* FIN PARTIE NAVBAR */
+
+/* PARTIE LIENBAR */
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.liens{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: auto;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* FIN PARTIE LIENBAR */
