@@ -168,7 +168,15 @@ a{
     box-shadow: none;
 }
 
-.galerie, .centre1, .centre2, .centre3{
+.étalé{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerie{
     display: flex;
     justify-content: center;
     align-items: center;
