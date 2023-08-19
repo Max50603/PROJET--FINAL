@@ -87,7 +87,7 @@ div.stopfloat{
 
 p.centre{
     text-align: center;
-    margin-top: 250px;
+    margin-top: 10px;
 }
 p.centre1{
     text-align: center;
@@ -219,7 +219,6 @@ button{
     cursor: pointer;
     border-radius: 20px;
     position: relative;
-    /* box-shadow: 5px 5px 5px black; */
     width: 250px;
 }
 

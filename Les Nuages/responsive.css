@@ -1,55 +1,83 @@
 @media only screen and (max-width: 1800px){
+    p, li, h1, h2, h3{
+        text-align: center;
+    }
+
+    .centre-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .violet{
+        display: none;
+    }
+
+    .centre{
+        margin-top: 10px;
+    }
+
     .cir, .alt, .strat, .cumulo{
         display: block;
     }
 
     .cir1, .cir2, .cir3, .alt1, .alt2, .alt3, .strat1, .strat2, .strat3, .cumulo1{
         width: auto;
-        height: auto;
+        margin: 10px;
     }
 }
 
-@media only screen and (max-width: 1435px){
-    body{
-        width: auto;
-        margin-left: 150px;
-        margin-right: 150px;
+@media only screen and (max-width: 1400px){
+    img, .image300{
+        width: 300px;
+        height: 300px;
     }
 
-    .btn, button{
-        padding: 5px 10px;
-        margin: 10px;
-        width: 100px;
+    p, li{
         font-size: 18px;
     }
+
+    h1, h2, h3{
+        font-size: 20px;
+    }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1100px){
     body{
-        width: 500px;
-        height: auto;
-        border: none;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+    img, .image300{
+        width: 200px;
+        height: 200px;
     }
 
     p, li{
         font-size: 16px;
     }
 
-    h2{
-        font-size: 20px;
+    h1, h2, h3{
+        font-size: 18px;
     }
 
-    h3{
-        font-size: 18px;
+    .btn{
+        padding: 5px 10px;
+        margin: 10px;
+        font-size: 16px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 100%;
+        height: auto;
+        border: none;
     }
 
     .btn1, .suppression-responsive{
         display: none;
-    }
-
-    img{
-        width: 300px;
-        height: 300px;
     }
 
     .pages, .liens{
@@ -60,27 +88,11 @@
         border: 2px solid black;
     }
 
-    .btn{
-        padding: 5px 10px;
-        font-size: 16px;
-        margin: 10px;
+    a, p, li{
+        font-size: 14px;
     }
 
-    .violet{
-        display: none;
-    }
-
-    .image300{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .centre-responsive{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .left, .right{
+        margin-bottom: 10px;
     }
 }
