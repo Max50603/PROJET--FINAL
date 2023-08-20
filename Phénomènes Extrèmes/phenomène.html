@@ -4,26 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pagemeteo.css">
+    <link rel="stylesheet" href="phenomène.css">
     <link rel="stylesheet" href="responsive.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Page Météo</title>
+    <title>Phénomènes Extrèmes</title>
 </head>
 <body>
-    <h1>PAGE METEO</h1>
+    <h1>PHENOMENES EXTREMES</h1>
 
-    <a href="#" class="retourenhaut"></a>
-        <img class="btn1" src="../img/959157.png" alt="fleche haut">
+    <a href="#" class="retourenhaut">
+        <img class="btn1" src="../img/959157.png" alt="fleche haut" class="icone"></a>
     <nav class="pages">  
         <button class="btn" type="button"><a href="../Météorologie Générale/index.html">Météorologie Générale</a></button>
         <button class="btn" type="button"><a href="../Les Nuages/Nuages.html">Les Nuages</a></button>
         <button class="btn" type="button"><a href="../Les Orages/Orages.html">Les Orages</a></button>
         <button class="btn" type="button"><a href="../Les Fronts/Les Fronts.html">Les Fronts</a></button>
         <button class="btn" type="button"><a href="../Le Vent/levent.html">Le Vent</a></button>
-        <button class="btn" type="button"><a href="../Phénomènes Extrèmes/phenomène.html">Phénomènes Extrèmes</a></button>
+        <button class="btn" type="button"><a href="../Page Météo/pagemeteo.html">Page Météo</a></button>
     </nav>
     <nav class="liens">
         <h3 class="suppression-responsive">Liens Utiles:</h3>
@@ -32,15 +31,3 @@
         <button class="boutton"><a href="https://www.infoclimat.fr/" target="_blank">InfosClimat</a></button>
         <button class="boutton"><a href="https://www.keraunos.org/" target="_blank">Keraunos</a></button>
     </nav>
-    <section>
-        <div class="container">
-            <h1 class="meteo">Météo</h1>
-            <form action="">
-                <label for="city">Entrez une ville :</label>
-                <input type="text" name="city" id="city" required autocomplete="off">
-                <button type="submit">Rechercher</button>
-            </form>
-            <div id="weather"></div>
-        </div>
-    </section>
-</body>
