@@ -32,9 +32,17 @@ p, li{
     background-color: red;
 }
 
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 video{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    border: 2px solid black;
 }
 
 /* PARTIE NAVBAR */
