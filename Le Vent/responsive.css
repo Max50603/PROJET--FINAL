@@ -11,5 +11,21 @@
 }
 
 @media only screen and (max-width: 500px){
+    body{
+        width: 100%;
+        height: auto;
+        border: none;
+    }
 
+    .btn1, .suppression-responsive{
+        display: none;
+    }
+
+    .pages, .liens{
+        position: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 2px solid black;
+    }
 }

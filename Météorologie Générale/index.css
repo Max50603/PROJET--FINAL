@@ -165,17 +165,34 @@ a{
 a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
+    margin: 5px;
 }
 
 .liens{
     position: fixed;
     top: 10px;
-    right: 10px;
-    padding: auto;
-    width: auto;
+    right: 60px;
+    width: 150px;
+    height: auto;
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.boutton{
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.boutton:hover{
+    animation: couleur 0.8s forwards;
+}
+
+.suppression-responsive{
+    font-size: 25px;
 }
 /* FIN PARTIE LIENBAR */
