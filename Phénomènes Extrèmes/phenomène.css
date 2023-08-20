@@ -1,0 +1,151 @@
+/* CORPS DE PAGE */
+body{
+    width: auto;
+    height: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: grey;
+    border: 2px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body h1{
+    text-align: center;
+    margin: 10px;
+}
+
+body p{
+    margin: 10px;
+    text-align: center;
+}
+
+.tornade, .ouragan{
+    width: 530px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.tornade h2, .ouragan h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* FIN DE CORPS DE PAGE */
+
+/* PARTIE NAVBAR */
+.btn{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 10px 20px;
+    background-color: grey;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    width: 250px;
+}
+
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 5px black;
+    top: 2px;
+    animation: couleur 0.8s forwards;
+}
+
+.btn:active{
+    box-shadow: 0 0px black;
+    top: 6px;
+}
+
+.pages{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: auto;
+    width: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes couleur{
+    0%{
+        background-color: grey;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+/* FIN PARTIE NAVBAR */
+
+/* PARTIE LIENBAR */
+a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.liens{
+    position: fixed;
+    top: 10px;
+    right: 60px;
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boutton{
+    width: 200px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.boutton:hover{
+    animation: couleur 0.8s forwards;
+}
+
+.suppression-responsive{
+    font-size: 25px;
+}
+/* FIN PARTIE LIENBAR */
