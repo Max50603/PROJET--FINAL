@@ -1,3 +1,4 @@
+/* CORPS DE PAGE */
 body{
     background-color: grey;
     max-width: auto;
@@ -154,6 +155,15 @@ img.icone{
     border-radius: 50%;
     background-color: red;
 }
+/* FIN DE CORPS DE PAGE */
+
+/* PARTIE CONNEXION EN HAUT DE PAGE */
+.connexion{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* FIN PARTIE CONNEXION */
 
 /* PARTIE NAVBAR */
 .btn{

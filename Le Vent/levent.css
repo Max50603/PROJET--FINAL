@@ -52,9 +52,15 @@ video{
     margin: 10px;
     border: 1px solid black;
 }
-
-
 /* FIN DU CORPS DE PAGE */
+
+/* PARTIE CONNEXION EN HAUT DE PAGE */
+.connexion{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* FIN PARTIE CONNEXION */
 
 /* PARTIE NAVBAR */
 .btn{

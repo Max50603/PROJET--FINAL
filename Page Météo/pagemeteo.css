@@ -1,4 +1,4 @@
-/* PARTIE PAGE CENTRAL */
+/* CORPS DE PAGE */
 body{
     width: auto;
     height: auto;
@@ -21,7 +21,15 @@ h1{
     text-align: center;
     margin: 10px;
 }
-/* FIN PARTIE PAGE CENTRAL */
+/* FIN CORPS DE PAGE */
+
+/* PARTIE CONNEXION EN HAUT DE PAGE */
+.connexion{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* FIN PARTIE CONNEXION */
 
 /* PARTIE API METEO */
 .container{

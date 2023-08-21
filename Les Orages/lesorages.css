@@ -1,3 +1,4 @@
+/* CORPS DE PAGE */
 body{
     max-width: 100%;
     margin-left: 300px;
@@ -182,6 +183,15 @@ a{
     align-items: center;
     flex-wrap: wrap;
 }
+/* FIN DE CORPS DE PAGE */
+
+/* PARTIE CONNEXION EN HAUT DE PAGE */
+.connexion{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* FIN PARTIE CONNEXION */
 
 /* PARTIE NAVBAR */
 .btn{
