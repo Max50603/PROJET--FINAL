@@ -1,80 +1,15 @@
 @media only screen and (max-width: 1800px){
-    .left, .right{
-        width: 400px;
-        height: 400px;
-    }
+    
 }
 
 @media only screen and (max-width: 1450px){
-    .left, .right{
-        width: 300px;
-        height: 300px;
-    }
-
-    p, li{
-        font-size: 18px;
-    }
-
-    h1, h2, h3{
-        font-size: 20px;
-    }
-
-    .toutcarre{
-        display: flex;
-        flex-direction: column;
-    }
+    
 }
 
 @media only screen and (max-width: 1300px){
-    .centre-responsive{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    a{
-        font-size: 16px;
-    }
-
-    .btn{
-        padding: 5px 10px;
-        margin: 10px;
-        width: 150px;
-    }
-
-    p, li{
-        font-size: 16px;
-    }
-
-    h1, h2, h3{
-        font-size: 18px;
-    }
+    
 }
 
 @media only screen and (max-width: 500px){
-    body{
-        width: 100%;
-        height: auto;
-        border: none;
-    }
-
-    p, li{
-        font-size: 12px;
-    }
-
-    h1, h2, h3{
-        font-size: 14px;
-    }
-
-    .btn1, .suppression-responsive{
-        display: none;
-    }
-
-    .pages, .liens{
-        position: initial;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        border: 2px solid black;
-    }
+    
 }

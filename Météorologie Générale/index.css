@@ -99,6 +99,8 @@ nav{
 body, a{
     text-decoration: none;
     color: black;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 mark{
@@ -198,13 +200,111 @@ h2{
     height: auto;
     position: relative;
     bottom: 300px;
-    left: 900px;
+    left: 1000px;
     font-size: 1.4em;
+}
+
+.pression{
+    width: 100%;
+    height: 1500px;
+    background-image: url(../img/13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centre-responsive{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 400px;
+}
+
+.centre-responsive img{
+    margin: 10px;
+}
+
+.pression .texte{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-size: 1.4em;
+}
+
+.anticyclone{
+    width: 100%;
+    height: 1100px;
+    background-image: url(../img/13\ -\ Copie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anticyclone p, h3{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.anticyclone h2, .depression h2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.toutcarre{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre1, .carre2, .carre3{
+    width: 500px;
+    height: 800px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.depression{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.depression p, h3{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.rectangle1, .rectangle2{
+    width: 750px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.centre{
+    width: 750px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* FIN PARTIE CORPS DE PAGE */
 
 /* PARTIE CONNEXION DE PAGE */
-.connexion{
-    display: none;
+.connexion a{
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: underline;
 }
 /* FIN PARTIE CONNEXION */
