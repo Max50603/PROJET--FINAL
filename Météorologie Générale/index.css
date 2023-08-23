@@ -1,4 +1,4 @@
-/* PARTIE HEADER */
+/* PARTIE HEADER ET LIENBAR */
 header{
     width: 100%;
     height: 100px;
@@ -93,7 +93,7 @@ nav{
 .liens button a{
     text-decoration: none;
 }
-/* FIN PARTIE HEADER */
+/* FIN PARTIE HEADER ET LIEN PAGE */
 
 /* CORPS DE PAGE */
 body, a{
