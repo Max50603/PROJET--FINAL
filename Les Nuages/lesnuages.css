@@ -1,254 +1,182 @@
-/* CORPS DE PAGE */
-body{
-    background-color: grey;
-    max-width: auto;
-    margin-left: 300px;
-    margin-right: 300px;
-    border: 2px solid black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-h1{
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-    font-size: 40px;
-}
-
-h1{
-    text-align: center;
-}
-
-.pages{
+/* PARTIE HEADER ET LIENBAR */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #31489f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-}
-
-p, h3{
-    margin: 10px;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
-p, li{
-    font-size: 20px;
-}
-
-img{
-    margin-bottom: 40px;
-    width: 500px;
-    height: 500px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-img.moinsbas{
-    margin-bottom: 10px;
-}
-
-img.centre{
-    display: block;
-    margin: 0 auto;
-}
-
-mark.vert{
-    background-color: green;
-}
-
-h3{
-    margin: 20 0 10 0;
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
-}
-
-img.left{
-    float: left;
-}
-
-img.right{
-    float: right;
-}
-
-p.grostitre{
-    font-size: 50px;
-}
-mark.violet{
-    background-color: blueviolet;
-}
-
-div.stopfloat{
-    clear: both;
-}
-
-p.centre{
-    text-align: center;
-    margin-top: 10px;
-}
-p.centre1{
-    text-align: center;
-    margin-top: 150px;
-}
-
-mark.vert1{
-    background-color: rgb(1, 255, 1);
-}
-
-b.rouge{
-    color: red;
-}
-
-b.bleu{
-    color: blue;
-}
-
-b.violet{
-    color: rgb(115, 0, 223);
-}
-
-.cir1, .cir2, .cir3, .alt1, .alt2, .alt3, .strat1, .strat2, .strat3{
-    border: 1px solid black;
-    width: 500px;
-    height: auto;
-    margin: 10px;
-}
-
-.cumulo1{
-    border: 1px solid black;
-    width: auto;
-    height: auto;
-    margin: 10px;
-}
-
-.cir, .alt, .strat{
-    display: flex;
-    justify-content: center;
-}
-
-.image300{
-    width: 350px;
-    height: 350px;
-    margin: 10px;
-}
-
-.centreimage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-a.btn1{
-    right: 0px;
-    bottom: 0px;
-    position: fixed;
-}
-
-img.icone{
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    border-radius: 50%;
-    background-color: red;
-}
-/* FIN DE CORPS DE PAGE */
-
-/* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-/* FIN PARTIE CONNEXION */
-
-/* PARTIE NAVBAR */
-.btn{
-    margin: 10px;
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 10px 20px;
-    background-color: grey;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
     position: relative;
-    width: 250px;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-}
-
-.btn:hover{
-    box-shadow: 5px 5px 5px black;
-    top: 2px;
-    animation: couleur 0.8s forwards;
-}
-
-.btn:active{
-    box-shadow: 0 0px black;
-    top: 6px;
+.container{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+    overflow: hidden;
 }
 
 .pages{
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    padding: auto;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+}
+
+.pages button{
     width: auto;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
 }
 
-@keyframes couleur{
-    0%{
-        background-color: grey;
-    }
-    100%{
-        background-color: yellow;
-    }
-}
-/* FIN PARTIE NAVBAR */
-
-/* PARTIE LIENBAR */
-a{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    margin: 5px;
+.pages button:hover{
+    top: 5px;
+    background-color: transparent;
+    box-shadow: none;
 }
 
+.pages button a{
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: #31489f;
+}
 .liens{
-    position: fixed;
-    top: 10px;
-    right: 60px;
-    width: 150px;
-    height: auto;
-    margin: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.boutton{
-    width: 200px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: grey;
-}
-
-.boutton:hover{
-    animation: couleur 0.8s forwards;
 }
 
 .suppression-responsive{
-    font-size: 25px;
+    position: relative;
+    left: -100px;
 }
-/* FIN PARTIE LIENBAR */
+
+.liens button{
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+}
+
+.liens button:hover{
+    top: 5px;
+    background-color: white;
+    box-shadow: none;
+}
+
+.liens button a{
+    text-decoration: none;
+}
+/* FIN PARTIE HEADER ET LIENBAR */
+
+/* CORPS DE PAGE */
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+mark{
+    background-color: #31489f;
+}
+
+.btn1, .icone{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+h1{
+    margin: 0;
+}
+
+.nuages{
+    width: 100%;
+    height: 1800px;
+    background-image: url(../img/fond1.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nuages h1{
+    font-size: 3.0em;
+}
+
+.nuages .titre{
+    position: relative;
+    top: 200px;
+    left: 200px;
+    color: #31489f;
+}
+
+.nuages .centre-responsive{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 900px;
+    left: 1000px;
+}
+
+.centre-responsive .centre{
+    width: 100%;
+    height: 100%;
+}
+
+.nuages .texte{
+    width: 600px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: 300px;
+}
+
+.nuages .texte h2, p, li{
+    font-size: 1.6em;
+}
+
+.convection{
+    width: 100%;
+    height: 1500px;
+    background-image: url(../img/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* FIN DE CORPS DE PAGE */
+
+/* PARTIE CONNEXION EN HAUT DE PAGE */
+.connexion a{
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: underline;
+}
+/* FIN PARTIE CONNEXION */
