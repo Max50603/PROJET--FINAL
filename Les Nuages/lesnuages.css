@@ -97,6 +97,8 @@ nav{
 
 /* CORPS DE PAGE */
 body{
+    width: 100%;
+    height: auto;
     margin: 0;
     overflow-x: hidden;
 }
@@ -115,7 +117,7 @@ mark{
     background-color: red;
 }
 
-h1{
+h1, h2{
     margin: 0;
 }
 
@@ -162,15 +164,118 @@ h1{
     font-size: 1.6em;
 }
 
-.convection{
+.mecanisme{
     width: 100%;
-    height: 1500px;
+    height: 950px;
     background-image: url(../img/fond2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.mecanisme .centre-responsive{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 100px;
+    top: 2200px;
+}
 
+.centre-responsive img{
+    width: 100%;
+    height: 100%;
+}
+
+.mecanisme .texte{
+    height: 700px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    top: 400px;
+    text-align: justify;
+}
+
+.formation h2{
+    text-align: center;
+}
+
+.formation{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fond1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formation .centre-responsive{
+    width: 500px;
+    height: 500px;
+}
+
+.formation .centre-responsive img{
+    width: 500px;
+    height: 500px;
+}
+
+.centre-responsive .left1{
+    position: absolute;
+    right: 100px;
+    top: 3300px;
+}
+
+.formation .titre{
+    font-size: 1.6em;
+    position: relative;
+    top: 200px;
+}
+
+.formation .texte{
+    width: 600px;
+    height: auto;
+    text-align: justify;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.titre1{
+    font-size: 1.6em;
+    position: relative;
+    top: 200px;
+}
+
+.centre-responsive .right{
+    position: absolute;
+    left: 100px;
+    top: 4800px;
+}
+
+.formation .texte1{
+    width: 600px;
+    height: auto;
+    text-align: justify;
+    position: relative;
+    bottom: 200px;
+    left: 1000px;
+}
+
+.formation .titre2{
+    font-size: 1.6em;
+}
+
+.formation .centre-responsive .left{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    top: 200px;
+}
+
+.formation .texte2{
+    width: 600px;
+    height: auto;
+    position: relative;
+    bottom: 300px;
+    left: 900px;
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
