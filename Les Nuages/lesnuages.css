@@ -248,6 +248,12 @@ h1, h2{
     left: 100px;
     top: 4800px;
 }
+@media only screen and (max-width: 1920px){
+    .centre-responsive .right{
+        top: 5000px;
+    }
+}
+
 
 .formation .texte1{
     width: 600px;
