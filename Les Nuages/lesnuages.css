@@ -276,6 +276,21 @@ h1, h2{
     bottom: 300px;
     left: 900px;
 }
+
+.types{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.types .left{
+    width: 500px;
+    height: 500px;
+}
+
+
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
