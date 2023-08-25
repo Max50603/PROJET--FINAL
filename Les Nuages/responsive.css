@@ -2,6 +2,14 @@
     .centre-responsive .right{
         top: 4800px;
     }
+
+    .types{
+        height: 1900px;
+    }
+
+    .nuage{
+        height: 6150px;
+    }
 }
 
 @media only screen and (max-width: 1730px){
