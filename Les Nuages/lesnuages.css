@@ -97,7 +97,7 @@ nav{
 
 /* CORPS DE PAGE */
 body{
-    width: 100%;
+    width: 1730px;
     height: auto;
     margin: 0;
     overflow-x: hidden;
@@ -279,7 +279,7 @@ h1, h2{
 
 .types{
     width: 100%;
-    height: auto;
+    height: 1800px;
     background-image: url(../img/fond2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -290,7 +290,114 @@ h1, h2{
     height: 500px;
 }
 
+.types .left{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: 200px;
+    top: 300px;
+}
 
+.types .texte{
+    width: 700px;
+    height: auto;
+    position: relative;
+    bottom: 500px;
+    left: 900px;
+}
+
+.types .titre{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centre-responsive .left2{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 1100px;
+    bottom: 300px;
+}
+
+.texte2{
+    width: 700px;
+    height: auto;
+    position: relative;
+    bottom: 700px;
+    left: 200px;
+}
+
+.nuage{
+    width: 100%;
+    height: 5010px;
+    background-image: url(../img/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nuage .letout{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 200px;
+}
+
+.nuage .titre{
+    position: relative;
+    top: 50px;
+    left: 700px;
+    font-size: 1.4em;
+}
+
+.cir, .alt, .strat, .cumulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cir1, .cir2, .cir3, .alt1, .alt2, .alt3, .strat1, .strat2, .strat3{
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: justify;
+}
+
+.cumulo{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: justify;
+}
+
+.cir1 p, .cir2 p, .cir3 p, .alt1 p, .alt2 p, .alt3 p, .strat1 p, .strat2 p, .strat3 p, .cumulo1 p{
+    margin: 10px;
+}
+
+.cir1 h2, .cir2 h2, .cir3 h2, .alt1 h2, .alt2 h2, .alt3 h2, .strat1 h2, .strat2 h2, .strat3 h2, .cumulo1 h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.centreimage img{
+    width: 400px;
+    height: 400px;
+}
+
+.centreimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
