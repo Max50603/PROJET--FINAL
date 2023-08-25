@@ -97,7 +97,7 @@ nav{
 
 /* CORPS DE PAGE */
 body{
-    width: 1730px;
+    width: auto;
     height: auto;
     margin: 0;
     overflow-x: hidden;
@@ -391,6 +391,7 @@ h1, h2{
 .centreimage img{
     width: 400px;
     height: 400px;
+    margin: 10px;
 }
 
 .centreimage{
