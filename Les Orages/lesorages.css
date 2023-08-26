@@ -1,7 +1,116 @@
+/* PARTIE HEADER ET LIENBAR */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #31489f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 
+.container{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/logo.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: absolute;
+    overflow: hidden;
+}
+
+.pages{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+}
+
+.pages button{
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+}
+
+.pages button:hover{
+    top: 5px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.pages button a{
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: #31489f;
+}
+.liens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suppression-responsive{
+    position: relative;
+    left: -100px;
+}
+
+.liens button{
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+}
+
+.liens button:hover{
+    top: 5px;
+    background-color: white;
+    box-shadow: none;
+}
+
+.liens button a{
+    text-decoration: none;
+}
+/* FIN PARTIE HEADER ET LIENBAR */
 
 /* CORPS DE PAGE */
+body{
+    width: auto;
+    height: auto;
+    
+}
 
+.btn1, .icone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
