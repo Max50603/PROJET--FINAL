@@ -99,7 +99,15 @@ nav{
 body{
     width: auto;
     height: auto;
-    
+    margin: 0;
+}
+
+p, li, h1, h2, h3{
+    margin: 0;
+}
+
+mark{
+    background-color: #31489f;
 }
 
 .btn1, .icone{
@@ -110,6 +118,48 @@ body{
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.convection{
+    width: 100%;
+    height: 1900px;
+    background-image: url(../img/fond3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.convection h1{
+    font-size: 3.0em;
+    color: #31489f; 
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+.convection .image-centre{
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    top: 950px;
+    left: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-centre img{
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+
+.convection .texte{
+    width: 700px;
+    height: auto;
+    position: relative;
+    font-size: 1.4em;
+    margin: 10px;
+    text-align: justify;
 }
 /* FIN DE CORPS DE PAGE */
 
