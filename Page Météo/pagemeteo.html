@@ -6,11 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagemeteo.css">
     <link rel="stylesheet" href="responsive.css">
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Page Météo</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('weather-form');
+            const input = document.querySelector('input[type="text"]');
+            const weatherDiv = document.getElementById("weather");
+
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault();
+                    const city = input.value.trim();
+
+                    const apiKey = "60e4c061b78d9b993bf7cd6c2e8ce637"
+                    fetch(`https://api.openweathermap.org/data/2.5/weather?q=$Paris&appid=$60e4c061b78d9b993bf7cd6c2e8ce637&units=metric`)
+                    .then(reponse => response.json())
+                    .then(data => {
+                        const weather = {
+                            city: data.name,
+                            description: data.weather[0].description,
+                            temperature: data.main.temp,
+                            humidity: data.main.humidity,
+                            icon: data.weather[0].icon,
+                        };
+                        displayWeather(weather);
+                    })
+                    .catch(error => console.error(error));
+                });
+        });
+
+        
+
+        function displayWeather(weather){
+            weatherDiv.innerHTML = '';
+            const card = document.createElement('div');
+            card.classList.add('weather-card');
+
+            const title = document.createElement('h2');
+            title.textContent = weather.city;
+            card.appendChild(title);
+
+            const icon = document.createElement('img');
+            icon.src = `http://openweathermap.org/img/wn/${weather.icon}.png`;
+            card.appendChild(icon);
+
+            const description = document.createElement('p');
+            description.textContent = weather.description;
+            card.appendChild(description);
+
+            const temperature = document.createElement('p');
+            temperature.textContent = `Température: ${weather.temperature} °C`;
+            card.appendChild(temperature);
+
+            const humidity = document.createElement('p');
+            humidity.textContent = `Humidité: ${weather.humidity}%`;
+            card.appendChild(humidity);
+
+            weatherDiv.appendChild(card);
+            weatherDiv.style.display = 'block';
+        };
+    </script>
 </head>
 <body>
     <h1>PAGE METEO</h1>
@@ -38,7 +96,7 @@
     <section>
         <div class="container">
             <h1 class="meteo">Météo</h1>
-            <form action="">
+            <form id="weather-form"  action="">
                 <label for="city">Entrez une ville :</label>
                 <input type="text" name="city" id="city" required autocomplete="off">
                 <button type="submit">Rechercher</button>
