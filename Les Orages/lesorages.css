@@ -270,17 +270,244 @@ mark{
 
 .formation{
     width: 100%;
-    height: 2000px;
+    height: 2050px;
     background-image: url(../img/fond3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.formation .centreimage{
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
+.formation .centreimage img{
+    width: 100%;
+    height: 500px;
+    margin: 10px;
+}
+
+.formation .titre{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0em;
+}
+
+.formation .texte{
+    width: 700px;
+    height: auto;
+    text-align: justify;
+    position: relative;
+    left: 900px;
+    bottom: 1500px;
+    font-size: 1.4em;
+}
+
+.mecanisme{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fond3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mecanisme .titre{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0em;
+}
+
+.mecanisme img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+.mecanisme p{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.mecanisme .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.foudre, .grele, .rafale{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fond3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foudre .titre, .grele .titre, .rafale .titre{
+    width: 100%;
+    height: 150px;
+    font-size: 2.0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foudre .texte, .grele .texte, .rafale .texte{
+    font-size: 1.4em;
+    text-align: justify;
+    margin: 10px;
+}
+
+.foudre .galerie, .grele .galerie, .rafale .galerie{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foudre .galerie img, .grele .galerie img, .rafale .galerie img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.type{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fond3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type .bigtitre{
+    width: 100%;
+    height: 150px;
+    font-size: 2.0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type .titre16em{
+    font-size: 1.6em;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.titre16em{
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.type p, .type li, h4{
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+.type img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.type .texte{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.classe1, .classe2, .classe3, .classe4, .classe5, .classe6, .classe7, .classe8{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerie1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galerie1 img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+section p{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+.suppression-responsive1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.premiereligne img, .deuxiemeligne img{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.premiereligne img:hover{
+    animation: rotate 0.8s forwards;
+}
+
+.deuxiemeligne img:hover{
+    animation: rotate 0.8s forwards;
+}
+
+@keyframes rotate{
+    100%{
+        width: 400px;
+        height: 500px;
+        rotate: 360deg;
+    }
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion{
-    display: none;
-}
+/* .connexion a{
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: underline;
+    position: relative;
+    left: 100px;
+    color: black;
+} */
 /* FIN PARTIE CONNEXION */
