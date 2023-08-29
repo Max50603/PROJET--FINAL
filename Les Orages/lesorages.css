@@ -93,6 +93,68 @@ nav{
 .liens button a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1150px){
+    header .btn a{
+        font-size: 1.2em;
+    }
+
+    header .btn{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    .container{
+        display: none;
+    }
+    
+    header .btn a{
+        font-size: 1.0em;
+    }
+
+    header .btn{
+        width: 100px;
+    }
+
+    header .pages{
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .connexion{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 390px;
+        height: auto;
+    }
+    
+    header{
+        width: 390px;
+        height: auto;
+    }
+
+    article, .btn1{
+        display: none;
+    }
+
+    header .btn a{
+        font-size: 0.8em;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
 /* FIN PARTIE HEADER ET LIENBAR */
 
 /* CORPS DE PAGE */
