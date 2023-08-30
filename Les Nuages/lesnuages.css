@@ -3,9 +3,6 @@ header{
     width: 100%;
     height: 100px;
     background-color: #31489f;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     position: relative;
     margin: 0;
