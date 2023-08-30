@@ -1,16 +1,10 @@
 @media only screen and (max-width: 1920px){
-    .formation .texte1{
-        left: 1200px;
-    }
+    
 }
 
 @media only screen and (max-width: 1730px){
     .centre-responsive .right{
         top: 4800px;
-    }
-
-    .formation .texte1{
-        left: 1000px;
     }
 }
 
