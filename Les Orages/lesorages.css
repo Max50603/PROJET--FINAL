@@ -255,16 +255,6 @@ mark{
     align-items: center;
 }
 
-@media only screen and (max-width: 945px){
-    .presentation h1{
-        font-size: 2.5em;
-    }
-
-    .presentation p{
-        font-size: 1.2em;
-    }
-}
-
 .stable .flex{
     display: flex;
     align-items: center;
@@ -272,7 +262,7 @@ mark{
 }
 .stable h2 mark{
     width: 100%;
-    height: 50px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,7 +343,7 @@ mark{
     }
     .texte h2 mark{
         width: 100%;
-        height: 50px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -528,16 +518,164 @@ article {
         height: 400px;
     }
 }
+
+/* DEBUT DE LA RESPONSIVE */
+@media only screen and (max-width: 1235px){
+    .developpement .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        align-items: center;
+    }
+
+    .p5{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .p6{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    p, li{
+        font-size: 1.3em;
+    }
+
+    h1, h2 mark, .foudre .titre h2 mark, .grele .titre h2 mark, .rafale .titre h2 mark{
+        font-size: 1.6em;
+    }
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    h1, h2 mark, .foudre .titre h2 mark, .grele .titre h2 mark, .rafale .titre h2 mark, .mecanisme .texte h2 mark{
+        font-size: 1.2em;
+    }
+
+    p, li{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 945px){
+    .presentation h1{
+        font-size: 2.5em;
+    }
+
+    .presentation p{
+        font-size: 1.2em;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    p, li{
+        font-size: 1.2em;
+    }
+
+    h1, h2 mark{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .presentation{
+        .flex{
+            display: block;
+        }
+    }
+
+    .stable{
+        .flex{
+            display: block;
+        }
+        .imagecentre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .instable{
+        .flex{
+            display: block;
+        }
+
+        .titre mark{
+            font-size: 1.4em;
+        }
+    }
+
+    .mecanisme{
+        .flex{
+            display: block;
+        }
+    }
+
+    .types{
+        .classe1, .classe2, .classe3, .classe4, .classe5, .classe6, .classe7, .classe8{
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 390px;
+        height: auto;
+    }
+
+    .mecanisme{
+        .titre mark{
+            font-size: 1.2em;
+        }
+    }
+
+    .developpement{
+        .titre h1 mark{
+            font-size: 1.4em;
+        }
+    }
+
+    .developpement .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .p2{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .p6{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .p7{
+        grid-column: 1;
+        grid-row: 6;
+    }
+}
+/* FIN DE LA PARTIE RESPONSIVE */
 /* FIN DES SECTIONS */
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-/* .connexion a{
+.connexion a{
     font-weight: 800;
     font-size: 15px;
     text-decoration: underline;
     position: relative;
     left: 100px;
     color: black;
-} */
+}
 /* FIN PARTIE CONNEXION */
