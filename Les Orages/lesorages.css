@@ -194,6 +194,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-image: url("../img/fond3.jpg");
 }
 
 body, section, p, li, a{
@@ -275,9 +276,6 @@ mark{
 .instable{
     width: 100%;
     height: auto;
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .flex{
         display: flex;
         justify-content: center;
@@ -285,7 +283,7 @@ mark{
     }
     .texte mark{
         width: 100%;
-        height: 50px;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -329,9 +327,6 @@ mark{
 }
 
 .mecanisme{
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .titre mark{
         width: 100%;
         height: auto;
@@ -360,9 +355,6 @@ mark{
 }
 
 .developpement{
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .titre h1 mark{
         width: 100%;
         height: auto;
@@ -387,9 +379,6 @@ mark{
 }
 
 .foudre, .grele, .rafale{
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .titre h2 mark{
         width: 100%;
         height: auto;
@@ -415,9 +404,6 @@ mark{
 }
 
 .types{
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .bigtitre h2 mark{
         width: 100%;
         height: auto;
@@ -450,9 +436,6 @@ mark{
 }
 
 .photos{
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .titre16em h2 mark{
         width: 100%;
         height: auto;
@@ -484,9 +467,6 @@ mark{
 }
 
 article {
-    background-image: url("../img/fond3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
     .premiereligne img, .deuxiemeligne img {
         width: 200px;
         height: 300px;
