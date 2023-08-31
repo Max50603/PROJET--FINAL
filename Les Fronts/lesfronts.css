@@ -98,9 +98,10 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
+    background-image: url("../img/fond4.jpg");
 }
 
-.btn1, icone{
+.btn1, .icone{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -120,6 +121,10 @@ section h1{
     font-size: 4em;
 }
 
+section p{
+    color: white;
+}
+
 section mark{
     background-color: #31489f;
     color: white;
@@ -131,12 +136,19 @@ section h2 mark{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     font-size: 1.6em;
 }
 
 section p{
     margin: 10px;
     font-size: 1.4em;
+}
+
+section img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
 }
 
 section mark{
@@ -154,7 +166,22 @@ section .flex{
     align-items: center;
 }
 
+.depression .centre-responsive{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* PARTIE RESPONSIVE */
+@media only screen and (max-width: 1585px){
+    .depression .centre-responsive{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 1140px){
     section p{
         font-size: 1.2em;
@@ -225,6 +252,15 @@ section .flex{
 
     .centre-responsive img{
         margin: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .depression .centre-responsive{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     section h2 mark{
@@ -236,8 +272,13 @@ section .flex{
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion{
-
+.connexion a{
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: underline;
+    position: relative;
+    left: 100px;
+    color: black;
 }
 /* FIN PARTIE CONNEXION */
 
