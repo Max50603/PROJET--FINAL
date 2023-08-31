@@ -5,36 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="levent.css">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Le Vent</title>
 </head>
 <body>
-    <h1>LE VENT</h1>
-    
-    <a href="#" class="btn1">
+    <a href="#" class="btn1"></a>
         <img class="icone" src="../img/959157.png" alt="fleche haut">
-    <nav class="connexion">
-        <a href="../Page de Connexion/index.html">Connexion</a>
-    </nav>
-    <nav class="pages">
-        <button class="btn" type="button"><a href="../Météorologie Générale/index.html">Météorologie Générale</button></a>
-        <button class="btn" type="button"><a href="../Les Nuages/Nuages.html">Les Nuages</button></a>
-        <button class="btn" type="button"><a href="../Les Fronts/Les Fronts.html">Les Fronts</button></a>
-        <button class="btn" type="button"><a href="../Les Orages/Orages.html">Les Orages</button></a>
-        <button class="btn" type="button"><a href="../Phénomènes Extrèmes/phenomène.html">Phénomènes Extrèmes</a></button>
-        <button class="btn" type="button"><a href="../Page Météo/pagemeteo.html">Page Météo</a></button>
-    </nav>
-    <nav class="liens">
-        <h3 class="suppression-responsive">Liens Utiles:</h3>
-        <button class="boutton"><a href="https://meteofrance.com/" target="_blank">Météo France</a></button>
-        <button class="boutton"><a href="https://www.meteociel.fr/" target="_blank">MétéoCiel</a></button>
-        <button class="boutton"><a href="https://www.infoclimat.fr/" target="_blank">InfosClimat</a></button>
-        <button class="boutton"><a href="https://www.keraunos.org/" target="_blank">Keraunos</a></button>
-    </nav>
+    <header>
+        <div class="container"></div>
+        <nav class="connexion">
+            <a href="../Page de Connexion/index.html">Connexion</a>
+        </nav>
+        <nav class="pages">
+            <button class="btn" type="button"><a href="../Météorologie Générale/index.html">Météorologie Générale</button></a>
+            <button class="btn" type="button"><a href="../Les Nuages/Nuages.html">Les Nuages</button></a>
+            <button class="btn" type="button"><a href="../Les Fronts/Les Fronts.html">Les Fronts</button></a>
+            <button class="btn" type="button"><a href="../Les Orages/Orages.html">Les Orages</button></a>
+            <button class="btn" type="button"><a href="../Phénomènes Extrèmes/phenomène.html">Phénomènes Extrèmes</a></button>
+            <button class="btn" type="button"><a href="../Page Météo/pagemeteo.html">Page Météo</a></button>
+        </nav>
+    </header>
+    
     <section>
+        <h1>LE VENT</h1>
         <h2><mark>A l'origine du vent, une différence de pression:</mark></h2>
         <p>Qu’est-ce que le vent ? En météorologie, le vent désigne le mouvement horizontal de l'air. Sa mesure comprend deux paramètres : sa direction et sa vitesse ou force. La vitesse est exprimée communément en km/h ou m/s. 
             Marins et pilotes utilisent les nœuds (1 nœud = 1,852 km/h). La mesure du vent est toujours une moyenne sur une période donnée.
@@ -52,11 +47,20 @@
     </section>
     <h2><mark>Quelques Videos sur le vent:</mark></h2>
     <article>
-        <video class="g1" src="../videos/courant rfd.mkv" controls></video>
-        <video class="g2" src="../videos/arbres.mkv" controls></video>
-        <video class="g3" src="../videos/station service.mkv" controls></video>
-        <p>La première video montre un courant RFD sous un orage au Etats-Unis, le vent souffle a environ 140km/h.</p>
-        <p>La deuxième video montre un arbre qui ne va resister longtemps a des rafales de vents.</p>
-        <p>La troisième video montre une station service qui ne resiste pas à un ouragan.</p>
+        <div class="grid">
+            <video class="g1" src="../videos/courant rfd.mkv" controls></video>
+            <video class="g2" src="../videos/arbres.mkv" controls></video>
+            <video class="g3" src="../videos/station service.mkv" controls></video>
+            <p>La première video montre un courant RFD sous un orage aux Etats-Unis, le vent souffle à environ 140km/h.</p>
+            <p>La deuxième video montre un arbre qui ne va resister longtemps à des rafales de vents.</p>
+            <p>La troisième video montre une station service qui ne résiste pas à un ouragan.</p>
+        </div>
     </article>
+    <nav class="liens">
+        <h3 class="suppression-responsive">Liens Utiles:</h3>
+        <button class="boutton"><a href="https://meteofrance.com/" target="_blank">Météo France</a></button>
+        <button class="boutton"><a href="https://www.meteociel.fr/" target="_blank">MétéoCiel</a></button>
+        <button class="boutton"><a href="https://www.infoclimat.fr/" target="_blank">InfosClimat</a></button>
+        <button class="boutton"><a href="https://www.keraunos.org/" target="_blank">Keraunos</a></button>
+    </nav>
 </body>
