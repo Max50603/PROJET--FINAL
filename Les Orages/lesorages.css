@@ -193,10 +193,17 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    background-image: url("../img/fond3.jpg");
 }
 
 body, section, p, li, a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p, li{
+    font-size: 1.4em;
+    margin: 10px;
 }
 
 .btn1, .icone{
@@ -216,11 +223,12 @@ img{
 
 mark{
     background-color: #31489f;
+    color: white;
 }
 /* FIN DE LA MISE EN PLACE */
 
 /* DEBUT DES SECTIONS */
-section h1{
+.presentation h1{
     width: 100%;
     height: 200px;
     display: flex;
@@ -230,11 +238,19 @@ section h1{
     color: #31489f;
 }
 
-section img{
+.presentation img{
     margin: 10px;
 }
 
 .presentation .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation h2 mark{
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,29 +261,401 @@ section img{
     align-items: center;
     justify-content: center;
 }
-
-.stable h2{
-    text-align: center;
+.stable h2 mark{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 10px;
 }
-
 .stable p{
     margin: 10px;
 }
 
 .instable{
-    
+    width: 100%;
+    height: auto;
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .centre{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte p{
+        margin: 10px;
+    }
+    .titre h2 mark{
+        width: 100%;
+        height: 50px;
+        margin: 10px;
+    }
+    .centreimage{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte1{
+        text-align: center;
+        font-size: 1.4em;
+    }
+    .titre{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 }
+
+.mecanisme{
+    .titre mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        padding: 10px;
+    }
+    .texte h2 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte p{
+        margin: 10px;
+    }
+}
+
+.developpement{
+    .titre h1 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        padding: 10px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        margin: 10px;
+    }
+
+    .p1, .p2, .p3, .p4{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.foudre, .grele, .rafale{
+    .titre h2 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        padding: 10px;
+    }
+    .galerie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galerie img{
+        border: 1px solid black;
+        box-shadow: 5px 5px 5px black;
+    }
+    .texte p, .texte li{
+        margin: 10px;
+    }
+}
+
+.types{
+    .bigtitre h2 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        padding: 10px;
+    }
+    .titre16em{
+        font-size: 1.6em;
+    }
+
+    .titre16em h3 mark, .titre16em h4 mark{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #4a75ff;
+    }
+    .classe1 p, .classe2 p, .classe3 p, .classe4 p, .classe5 p, .classe6 p, .classe7 p, .classe8 p{
+        margin: 10px;
+    }
+    .classe1, .classe2, .classe3, .classe4, .classe5, .classe6, .classe7, .classe8{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.photos{
+    .titre16em h2 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        padding: 10px;
+    }
+    .galerie1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.titre16em h2 mark{
+    font-size: 2em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+article {
+    .premiereligne img, .deuxiemeligne img {
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+    }
+
+    .premiereligne, .deuxiemeligne {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.rotate{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.rotate:hover{
+    animation: rotate 0.8s forwards;
+}
+
+@keyframes rotate{
+    100%{
+        rotate: 360deg;
+        width: 300px;
+        height: 400px;
+    }
+}
+
+/* DEBUT DE LA RESPONSIVE */
+@media only screen and (max-width: 1235px){
+    .developpement .grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 300px);
+        align-items: center;
+    }
+
+    .p5{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .p6{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    p, li{
+        font-size: 1.3em;
+    }
+
+    h1, h2 mark, .foudre .titre h2 mark, .grele .titre h2 mark, .rafale .titre h2 mark{
+        font-size: 1.6em;
+    }
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    h1, h2 mark, .foudre .titre h2 mark, .grele .titre h2 mark, .rafale .titre h2 mark, .mecanisme .texte h2 mark{
+        font-size: 1.2em;
+    }
+
+    p, li{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 945px){
+    .presentation h1{
+        font-size: 2.5em;
+    }
+
+    .presentation p{
+        font-size: 1.2em;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+    p, li{
+        font-size: 1.2em;
+    }
+
+    h1, h2 mark{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .presentation{
+        .flex{
+            display: block;
+        }
+    }
+
+    .stable{
+        .flex{
+            display: block;
+        }
+        .imagecentre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .instable{
+        .flex{
+            display: block;
+        }
+
+        .titre mark{
+            font-size: 1.4em;
+        }
+    }
+
+    .mecanisme{
+        .flex{
+            display: block;
+        }
+    }
+
+    .types{
+        .classe1, .classe2, .classe3, .classe4, .classe5, .classe6, .classe7, .classe8{
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 390px;
+        height: auto;
+    }
+
+    .mecanisme{
+        .titre mark{
+            font-size: 1.2em;
+        }
+    }
+
+    .developpement{
+        .titre h1 mark{
+            font-size: 1.4em;
+        }
+    }
+
+    .developpement .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .p2{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .p6{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .p7{
+        grid-column: 1;
+        grid-row: 6;
+    }
+}
+/* FIN DE LA PARTIE RESPONSIVE */
 /* FIN DES SECTIONS */
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-/* .connexion a{
+.connexion a{
     font-weight: 800;
     font-size: 15px;
     text-decoration: underline;
     position: relative;
     left: 100px;
     color: black;
-} */
+}
 /* FIN PARTIE CONNEXION */

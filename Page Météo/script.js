@@ -1,28 +1,33 @@
-const form = document.querySelector('form');
-const input = document.querySelector('input[type="text"]');
-const weatherDiv = document.getElementById("weather");
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.getElementById('weather-form');
+    const input = document.querySelector('input[type="text"]');
+    const weatherDiv = document.getElementById("weather");
 
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    const city = input.value.trim();
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const city = input.value.trim();
 
-    const apiKey = "60e4c061b78d9b993bf7cd6c2e8ce637"
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=$Paris&appid=$60e4c061b78d9b993bf7cd6c2e8ce637&units=metric`)
-    .then(reponse => response.json())
-    .then(data => {
-        const weather = {
-            city: data.name,
-            description: data.weather[0].description,
-            temperature: data.main.temp,
-            humidity: data.main.humidity,
-            icon: data.weather[0].icon,
-        };
-        displayWeather(weather);
-    })
-    .catch(error => console.error(error));
+            const apiKey = "60e4c061b78d9b993bf7cd6c2e8ce637"
+            fetch(`https://api.openweathermap.org/data/2.5/weather?id=524901&appid=60e4c061b78d9b993bf7cd6c2e8ce637`)
+            .then(reponse => reponse.json())
+            .then(data => {
+                const weather = {
+                    city: data.name,
+                    description: data.weather[0].description,
+                    temperature: data.main.temp,
+                    humidity: data.main.humidity,
+                    icon: data.weather[0].icon,
+                };
+                displayWeather(weather);
+            })
+            .catch(error => console.error(error));
+        });
 });
 
+
+
 function displayWeather(weather){
+    let weatherDiv;
     weatherDiv.innerHTML = '';
     const card = document.createElement('div');
     card.classList.add('weather-card');
@@ -49,4 +54,4 @@ function displayWeather(weather){
 
     weatherDiv.appendChild(card);
     weatherDiv.style.display = 'block';
-}
+};
