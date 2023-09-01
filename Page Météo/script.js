@@ -24,8 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-
-
 function displayWeather(weather){
     let weatherDiv;
     weatherDiv.innerHTML = '';
