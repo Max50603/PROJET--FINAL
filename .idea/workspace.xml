@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7212cad1-7a53-4e03-af67-44df2c2814e9" name="Changes" comment="" />
+    <list default="true" id="7212cad1-7a53-4e03-af67-44df2c2814e9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +36,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/maxime/DEVELLOPEMENT/Cour--JavaScript",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Langage/ADRAR/PROJET-FINAL",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +55,8 @@
       <updated>1693478052707</updated>
       <workItem from="1693478053874" duration="181000" />
       <workItem from="1693553532885" duration="360000" />
+      <workItem from="1693579976975" duration="59000" />
+      <workItem from="1693580045621" duration="30000" />
     </task>
     <servers />
   </component>
