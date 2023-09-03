@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="pagemeteo.css">
-    <link rel="stylesheet" href="responsive.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -29,16 +27,75 @@
             <button class="btn" type="button"><a href="../Phénomènes Extrèmes/phenomène.html">Phénomènes Extrèmes</a></button>
         </nav>
     </header>
+    <script>
+        const apiKey = "60e4c061b78d9b993bf7cd6c2e8ce637";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+        const searchBox = document.querySelector(".search input");
+        const searchBtn = document.querySelector(".search button");
+        const weatherIcon = document.querySelector(".weather-icon");
+        async function checkWeather(city){
+            const response = await fetch(apiUrl + city + `$appid=${apiKey}`);
+            if(response.status == 404){
+                document.querySelector(".error").style.display = "block";
+                document.querySelector(".weather").style.display = "none";
+            }else{
+                if(data.weather[0].main == "Clouds"){
+                    weatherIcon.src = "images/clouds.png";
+                }else if(data.weather[0].main == "Clear"){
+                    weatherIcon.src = "images/clear.png";
+                }else if(data.weather[0].main == "Rain"){
+                    weatherIcon.src = "images/rain.png";
+                }else if(data.weather[0].main == "Drizzle"){
+                    weatherIcon.src = "images/drizzle.png";
+                }else if(data.weather[0].main == "Mist"){
+                    weatherIcon.src = "images/mist.png";
+                }
+                document.querySelector(".weather").style.display = "block";
+                document.querySelector(".error").style.display = "none";
+            }
+            var data = await response.json();
+
+            console.log(data);
+            document.querySelector(".city").innerHTML = data.name;
+            document.querySelector(".temp").innerHTML = Math.round() .data.main.temp + "°C";
+            document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+            document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+
+        }
+        searchBtn.addEventListener("click", ()=>{
+            checkWeather(searchBox.value);
+        })
+    </script>
     <section>
-        <h1>PAGE METEO</h1>
-        <div class="container">
-            <h2 class="meteo">Météo</h2>
-            <form id="weather-form"  action="">
-                <label for="city">Entrez une ville :</label>
-                <input type="text" name="city" id="city" required autocomplete="off">
-                <button type="submit">Rechercher</button>
-            </form>
-            <div id="weather"></div>
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Entrer votre ville" spellcheck="false">
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="error">
+                <p>Nom de ville invalide !</p>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">Lourdes</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="images/humidity.png">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidité</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png">
+                        <div>
+                            <p class="wind">15km/h</p>
+                            <p>Vent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <nav class="liens">
