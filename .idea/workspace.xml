@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e997653f-684e-4528-99b6-b08761879a50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Météo/pagemeteo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Météo/pagemeteo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Météo/pagemeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Météo/pagemeteo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Météo/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page Météo/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +55,7 @@
       <workItem from="1693595235396" duration="145000" />
       <workItem from="1693668851520" duration="5990000" />
       <workItem from="1693735141919" duration="2862000" />
+      <workItem from="1693808895643" duration="6293000" />
     </task>
     <servers />
   </component>

@@ -112,6 +112,82 @@ body, section, p, li, a{
     right: 0;
 }
 
+.haute-pression, .basse-pression{
+    .titre h1{
+        font-size: 4em;
+        color: #31489f;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .texte p, .texte li{
+        margin: 10px;
+        font-size: 1.6em;
+    }
+    .texte h2 mark{
+        font-size: 1.8em;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #31489f;
+        padding: 10px;
+        color: white;
+    }
+    .centre-responsive img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}
+
+.pression h2 mark{
+    font-size: 1.8em;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #31489f;
+    padding: 10px;
+    color: white;
+}
+
+.pression{
+    .texte p, & li {
+        font-size: 1.4em;
+        margin: 10px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid grey;
+        box-shadow: 5px 5px 5px black;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .centre-responsive img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+}
+
 
 /* FIN PARTIE CORPS DE PAGE */
 
