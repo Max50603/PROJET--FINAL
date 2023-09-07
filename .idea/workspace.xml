@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e997653f-684e-4528-99b6-b08761879a50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Météorologie Générale/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Nuages/Nuages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/Nuages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/lesnuages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.html" afterDir="false" />
     </list>
@@ -14,8 +17,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Météorologie Générale/index.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -25,24 +38,27 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2UnfAv6HNFeokfnwo5UUZ1riCj4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +73,9 @@
       <workItem from="1693668851520" duration="5990000" />
       <workItem from="1693735141919" duration="2862000" />
       <workItem from="1693808895643" duration="6293000" />
-      <workItem from="1693999604370" duration="5700000" />
+      <workItem from="1693999604370" duration="6467000" />
+      <workItem from="1694026707829" duration="2051000" />
+      <workItem from="1694039358564" duration="1784000" />
     </task>
     <servers />
   </component>

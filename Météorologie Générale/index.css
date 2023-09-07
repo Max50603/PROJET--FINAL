@@ -128,7 +128,7 @@ p, li{
     }
     .texte p, .texte li{
         margin: 10px;
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     .texte h2 mark{
         font-size: 1.8em;
@@ -280,4 +280,33 @@ p, li{
     text-decoration: underline;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 1510px){
+    .haute-pression .titre h1{
+        font-size: 3em;
+    }
+
+    .texte p, .texte li{
+        font-size: 1.2em;
+    }
+
+    .texte h2 mark{
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 1470px){
+    .toutcarre{
+        display: block;
+    }
+
+    .carre1, .carre2, .carre3{
+        width: auto;
+        height: auto;
+    }
+
+    
+}
+
+
 /* FIN PARTIE CONNEXION */
