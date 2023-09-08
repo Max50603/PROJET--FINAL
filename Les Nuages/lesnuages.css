@@ -98,7 +98,7 @@ body{
     padding: 0;
 }
 
-.connexion, .icone{
+.scroll{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -109,8 +109,30 @@ body{
 }
 
 .titre h1{
-    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #31489f;
 }
+
+.nuages{
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centre{
+        margin: 10px;
+    }
+    .texte h2 mark{
+        
+    }
+}
+
+
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
