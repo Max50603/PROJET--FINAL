@@ -90,13 +90,6 @@ nav{
 .liens button a{
     text-decoration: none;
 }
-/* FIN PARTIE HEADER ET LIENBAR */
-
-/* CORPS DE PAGE */
-body{
-    margin: 0;
-    padding: 0;
-}
 
 .scroll{
     width: 50px;
@@ -106,6 +99,13 @@ body{
     position: fixed;
     bottom: 0;
     right: 0;
+}
+/* FIN PARTIE HEADER ET LIENBAR */
+
+/* CORPS DE PAGE */
+/* body{
+    margin: 0;
+    padding: 0;
 }
 
 .titre h1{
@@ -201,7 +201,7 @@ p{
         margin: 10px;
     }
 }
-
+ */
 
 /* FIN DE CORPS DE PAGE */
 
