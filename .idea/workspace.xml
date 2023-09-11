@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e997653f-684e-4528-99b6-b08761879a50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Météorologie Générale/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les Nuages/Nuages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/Nuages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/lesnuages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Nuages/lesnuages.js" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/lesnuages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +71,7 @@
       <workItem from="1693999604370" duration="6467000" />
       <workItem from="1694026707829" duration="2051000" />
       <workItem from="1694039358564" duration="1784000" />
+      <workItem from="1694425190583" duration="27000" />
     </task>
     <servers />
   </component>
