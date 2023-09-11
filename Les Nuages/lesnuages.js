@@ -182,6 +182,12 @@ let bleu = document.querySelector('.bleu');
     bleu.style.backgroundColor = "#31489f";
     bleu.style.color = "white";
 
+// let left2 = document.querySelector('.centre-responsive');
+// left2.firstElementChild;
+//     left2.style.width = "500px";
+//     left2.style.height = "500px";
+//     left2.style.margin = "10px";    
+
 let flex5 = document.querySelector('.flex5');
     flex5.style.display = "flex";
     flex5.style.justifyContent = "center";
@@ -216,29 +222,3 @@ mark = mark.firstElementChild;
     mark.style.color = "white";
     mark.style.padding = "10px";
 // console.log(mark);
-
-let cir = document.querySelector('.cir');
-    cir.style.border = "1px solid grey";
-    cir.style.boxShadow = "5px 5px 5px black";
-    cir.style.borderRadius = "10px";
-    cir.style.margin = "10px";
-cir = cir.firstElementChild;
-cir = cir.firstElementChild;
-    cir.style.display = "flex";
-    cir.style.justifyContent = "center";
-    cir.style.alignItems = "center";
-cir = cir.firstElementChild;
-    cir.style.height = "auto";
-    cir.style.width = "100%";
-    cir.style.display = "flex";
-    cir.style.justifyContent = "center";
-    cir.style.alignItems = "center";
-    cir.style.backgroundColor = "#31489f";
-    cir.style.color = "white";
-    cir.style.padding = "10px";
-cir = cir.firstElementChild;
-    cir.style.backgroundColor = "#31489f";
-    cir.style.color = "white";
-console.log(cir)
-let 
-    

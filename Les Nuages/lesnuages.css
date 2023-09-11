@@ -203,6 +203,37 @@ p{
 }
  */
 
+
+.cir, .alt{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 10px;
+    .texte8 p, .texte p{
+        font-size: 1.4em;
+        margin: 10px;
+    }
+    .texte8, .texte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titre h2 mark{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #31489f;
+        font-size: 1.4em;
+        color: white;
+    }
+    .centreimage img{
+        width: 500px;
+        height: 500px;
+        margin: 10px;
+    }
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
