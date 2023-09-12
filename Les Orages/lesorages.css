@@ -91,6 +91,16 @@ nav{
     text-decoration: none;
 }
 
+.scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 @media only screen and (max-width: 1150px){
     header .btn a{
         font-size: 1.2em;

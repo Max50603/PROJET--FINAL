@@ -182,11 +182,11 @@ let bleu = document.querySelector('.bleu');
     bleu.style.backgroundColor = "#31489f";
     bleu.style.color = "white";
 
-// let left2 = document.querySelector('.centre-responsive');
-// left2.firstElementChild;
-//     left2.style.width = "500px";
-//     left2.style.height = "500px";
-//     left2.style.margin = "10px";    
+let left2 = document.querySelector('.centre-responsive');
+left2.firstElementChild;
+    left2.style.width = "500px";
+    left2.style.height = "500px";
+    left2.style.margin = "10px";    
 
 let flex5 = document.querySelector('.flex5');
     flex5.style.display = "flex";
@@ -220,5 +220,4 @@ mark = mark.firstElementChild;
     mark.style.fontSize = "2em";
     mark.style.backgroundColor = "#31489f";
     mark.style.color = "white";
-    mark.style.padding = "10px";
 // console.log(mark);

@@ -202,10 +202,14 @@ p{
     }
 }
  */
+.left2{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
 
-
-.cir, .alt{
-    border: 1px solid black;
+.cir, .alt, .strat, .cumulo{
+    border: 5px solid black;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     margin: 10px;
@@ -225,13 +229,24 @@ p{
         justify-content: center;
         align-items: center;
         background-color: #31489f;
-        font-size: 1.4em;
+        font-size: 1.6em;
         color: white;
+        text-align: center;
     }
     .centreimage img{
         width: 500px;
         height: 500px;
         margin: 10px;
+        border: 1px solid grey;
+        
+    }
+    .cumulo1 .texte{
+        display: block;
+    }
+    .centreimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 /* FIN DE CORPS DE PAGE */
