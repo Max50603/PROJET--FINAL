@@ -157,6 +157,10 @@ body{
         align-items: center;
     }
 }
+
+@media only screen and (max-width: 1000px){
+    
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
