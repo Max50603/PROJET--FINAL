@@ -27,7 +27,6 @@ let titre1 = document.querySelector('.titre1');
     titre1.style.fontSize = "3em";
 
 
-
 // SECTION NUAGES
 let nuages = document.querySelector('.flex');
 // console.log(nuages.style);

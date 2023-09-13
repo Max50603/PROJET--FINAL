@@ -108,3 +108,67 @@ body{
     padding: 0;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+h2{
+    text-align: center;
+}
+
+/* SECTION IMAGES */
+.images{
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    background-color: bisque;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px 20px 10px;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 10px solid black;
+}
+
+
+/* SECTION COMMENTAIRES */
+.commentaires{
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    background-color: bisque;
+}
+
+/* SECTION COMMENTAIRE */
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.premier, .deuxieme, .troisieme, .quatrieme{
+    position: relative;
+    width: 80%;
+    padding: 15px;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    background-color: grey;
+    border-radius: 10px;
+}
+

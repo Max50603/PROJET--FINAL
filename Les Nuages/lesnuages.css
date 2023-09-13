@@ -103,105 +103,13 @@ nav{
 /* FIN PARTIE HEADER ET LIENBAR */
 
 /* CORPS DE PAGE */
-/* body{
+body{
     margin: 0;
     padding: 0;
+    background-image: url(../img/fond1.jpg);
 }
 
-.titre h1{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4em;
-    color: #31489f;
-}
 
-p{
-    margin: 10px;
-}
-
-.nuages{
-    .flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 10px;
-        border: 1px solid grey;
-        border-radius: 10px;
-        box-shadow: 5px 5px 5px black;
-    }
-    .centre{
-        margin: 10px;
-        height: 500px;
-        width: 500px;
-    }
-    .texte h2 mark{
-        width: 100%;
-        height: auto;
-        background-color: #31489f;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 1.4em;
-        color: white;
-    }
-    .texte{
-        font-size: 1.4em;
-        margin: 10px;
-    }
-}
-
-.mecanisme{
-    .texte h2 mark{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #31489f;
-        padding: 10px;
-        font-size: 2em;
-        color: white;
-    }
-    .texte p{
-        font-size: 1.4em;
-    }
-}
-
-.formation{
-    .flex{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid grey;
-        box-shadow: 5px 5px 5px black;
-        border-radius: 10px;
-        margin: 10px;
-    }
-    .texte h2 mark{
-        background-color: #31489f;
-        height: auto;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2em;
-        color: white;
-    }
-    .left1{
-        width: 500px;
-        height: 500px;
-    }
-    p{
-        font-size: 1.4em;
-    }
-    .right img{
-        width: 500px;
-        height: 500px;
-        margin: 10px;
-    }
-}
- */
 .left2{
     width: 500px;
     height: 500px;
