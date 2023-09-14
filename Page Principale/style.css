@@ -1,0 +1,361 @@
+body{
+    background-color: #1d1e31;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #2c2534;
+}
+
+/* PARTIE HEADER ET LIENBAR */
+.pages button a{
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: #31489f;
+}
+.liens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suppression-responsive{
+    position: relative;
+    left: -100px;
+}
+
+.liens button{
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 5px 5px 5px black;
+}
+
+.liens button:hover{
+    top: 5px;
+    background-color: white;
+    box-shadow: none;
+}
+
+.liens button a{
+    text-decoration: none;
+}
+
+.scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* FIN PARTIE HEADER ET LIENBAR */
+
+/* SECTION 1 */
+
+.sec1{
+    height: 1000px;
+}
+
+.sec1 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1 .container .left h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-right: 50px;
+}
+
+.sec1 .container .left{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec1 .container .left p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-right: 50px;
+}
+
+.sec1 .container .right img{
+    margin-top: 100px;
+}
+
+.sec1 .container .left button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* SECTION 2 */
+
+.sec2{
+    height: 1000px;
+}
+
+.sec2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2 .container .right h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-left: 50px;
+}
+
+.sec2 .container .right{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec2 .container .right p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+.sec2 .container .right button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* SECTION 3 */
+.sec3{
+    height: 1000px;
+}
+
+.sec3 .container .right img{
+    width: 500px;
+    height: 500px;
+}
+
+.sec3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3 .container .left h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-right: 50px;
+}
+
+.sec3 .container .left{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec3 .container .left p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-right: 50px;
+}
+
+.sec3 .container .left button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+/* SECTION 4 */
+.sec4{
+    height: 1000px;
+}
+
+.sec4 .container .left img{
+    width: 500px;
+    height: 500px;
+}
+
+.sec4 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 .container .right h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-left: 50px;
+}
+
+.sec4 .container .left{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec4 .container .right p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+.sec4 .container .right button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+/* SECTION 5 */
+.sec5{
+    height: 1000px;
+}
+
+.sec5 .container .right img{
+    width: 500px;
+    height: 500px;
+}
+
+.sec5 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5 .container .left h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-right: 50px;
+}
+
+.sec5 .container .left{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec5 .container .left p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-right: 50px;
+}
+
+.sec5 .container .left button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+/* SECTION 6 */
+.sec6{
+    height: 1000px;
+}
+
+.sec6 .container .left img{
+    width: 500px;
+    height: 500px;
+}
+
+.sec6 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec6 .container .right h1{
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    font-size: 6em;
+    margin-left: 50px;
+}
+
+.sec6 .container .left{
+    max-width: 1000px;
+    height: auto;
+}
+
+.sec6 .container .right p{
+    color: #888888;
+    max-width: 600px;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+.sec6 .container .right button{
+    width: 300px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    color: #2c2534;
+    font-size: 1.1em;
+    font-weight: 900;
+    background-color: #fec675;
+    box-shadow: 0px 0px 10px #fec675;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 50px;
+}
