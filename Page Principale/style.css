@@ -10,6 +10,18 @@ a{
     color: #2c2534;
 }
 
+
+.grostitre{
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-shadow: 0px 0px 10px;
+    width: 100%;
+    height: auto;
+    background-color: #31489f;
+    margin: 0px 0px 20px 0px;
+}
+
 /* PARTIE HEADER ET LIENBAR */
 .pages button a{
     font-size: 20px;
@@ -312,7 +324,7 @@ nav{
 
 /* SECTION 6 */
 .sec6{
-    height: 1000px;
+    height: 600px;
 }
 
 .sec6 .container .left img{
