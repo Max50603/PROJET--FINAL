@@ -189,6 +189,21 @@ body{
         height: 300px;
     }
 }
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 500px;
+        height: auto;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .flex{
+        display: block;
+        border: none;
+    }
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
