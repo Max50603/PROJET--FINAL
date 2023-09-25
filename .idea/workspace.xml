@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Le Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le Vent/levent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Le Vent/levent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Le Vent/levent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Fronts/Les Fronts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les Fronts/Les Fronts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Nuages/Nuages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les Nuages/Nuages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les Orages/Orages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les Orages/Orages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Météorologie Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie Générale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Météo/pagemeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Météo/pagemeteo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page Principale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Principale/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Page Principale/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page Principale/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page de Connexion/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page de Connexion/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phénomènes Extrèmes/phenomène.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes Extrèmes/phenomène.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phénomènes Extrèmes/phenomène.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes Extrèmes/phenomène.html" afterDir="false" />
     </list>
@@ -56,6 +67,15 @@
       <workItem from="1695192727845" duration="8216000" />
       <workItem from="1695217731639" duration="1236000" />
       <workItem from="1695222999362" duration="1089000" />
+      <workItem from="1695232391336" duration="715000" />
+      <workItem from="1695247913995" duration="3342000" />
+      <workItem from="1695281189543" duration="5407000" />
+      <workItem from="1695296271276" duration="5549000" />
+      <workItem from="1695364252146" duration="2551000" />
+      <workItem from="1695381372242" duration="3453000" />
+      <workItem from="1695509265366" duration="533000" />
+      <workItem from="1695558969853" duration="402000" />
+      <workItem from="1695589154584" duration="1211000" />
     </task>
     <servers />
   </component>
