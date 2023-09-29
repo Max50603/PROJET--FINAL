@@ -90,16 +90,6 @@ nav{
 .liens button a{
     text-decoration: none;
 }
-
-.scroll{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
 /* FIN PARTIE HEADER ET LIENBAR */
 
 /* CORPS DE PAGE */
@@ -207,11 +197,11 @@ body{
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-/* .connexion a{
+.connexion a{
     font-weight: 700;
     position: absolute;
     left: 100px;
     font-size: 15px;
     text-decoration: underline;
-} */
+}
 /* FIN PARTIE CONNEXION */
