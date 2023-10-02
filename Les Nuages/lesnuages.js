@@ -41,6 +41,7 @@ let nuages = document.querySelector('.flex');
 let texte = document.querySelector('.texte');
 document.getElementsByClassName('.texte');
     texte.style.fontSize = "1.4em";
+    texte.style.margin = "10px";
 
 let image500 = document.querySelector('.centre');
 document.getElementsByClassName('.centre');
