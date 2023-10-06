@@ -5,6 +5,28 @@ body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* SCROLL BAR */
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.scroll-bar{
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+}
+
+.progressbar{
+    height: 8px;
+    background-color: #fec675;
+    width: 0%;
+}
+/* FIN SCROOL BAR */
+
 /* PARTIE HEADER ET LIENBAR */
 nav{
     width: 100%;
@@ -78,21 +100,19 @@ a{
 }
 
 /* SECTION 2 */
-@keyframes couleur{
-    100%{
-        box-shadow: 0px 0px 50px #fec675;
-    }
-}
-
 .cols1, .cols2, .cols3, .cols4, .cols5, .cols6{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 1400px;
     height: auto;
+    border-radius: 10px;
     margin: 100px auto;
     background-color: #353448;
-    animation: couleur 2s infinite;
+}
+
+.cols1:hover, .cols2:hover, .cols3:hover, .cols4:hover, .cols5:hover, .cols6:hover{
+    box-shadow: 0 0 100px #fec675;
 }
 
 .centre p{
@@ -110,6 +130,7 @@ a{
 .centre button{
     width: 500px;
     height: 100px;
+    border-radius: 10px;
     background-color: #fec675;
     border: none;
     box-shadow: 0 0 10px #fec675;
