@@ -1,78 +1,35 @@
 body{
-    background-color: #034159;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #1d1e31;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-p{
-    color: white;
-    font-size: 1.4em;
-    margin: 10px;
-    text-align: justify;
-}
-
-h1{
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 3em;
-    text-shadow: 0 0 20px;
-    background-color: #0CF25D;
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding: 10px;
-}
 /* PARTIE HEADER ET LIENBAR */
-.pages button a{
-    font-size: 20px;
-    color: white;
-}
-
 nav{
     width: 100%;
     height: 100%;
-    background-color: #0CF25D;
-}
-.liens{
+    background-color: #1d1e31;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.suppression-responsive{
-    position: relative;
-    left: -100px;
-}
-
-.liens button{
-    width: auto;
-    height: 50px;
-    border-radius: 10px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: relative;
-    box-shadow: 5px 5px 5px black;
-    background-color: #0CF25D;
-}
-
-.liens button:hover{
-    top: 5px;
-    box-shadow: none;
-    background-color: orange;
-}
-
-.liens button a{
+a{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
     text-decoration: none;
-    font-size: 1.4em;
-    padding: 10px;
+    text-transform: uppercase;
+    margin: 50px;
+}
+
+.liens{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .scroll{
@@ -84,100 +41,78 @@ nav{
     bottom: 0;
     right: 0;
 }
-
 /* FIN PARTIE HEADER ET LIENBAR */
 
 /* SECTION 1 */
 .presentation{
-    .texte{
-        width: auto;
-        height: auto;
-        margin: 50px 10px 50px 10px;
-        border-left: 3px solid white;
-        border-right: 3px solid white;
-        border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.presentation img{
+    width: 800px;
+    height: 800px;
+    margin: 0 10px 100px 10px;
+    border-radius: 50%;
+}
+
+.presentation h1{
+    color: white;
+    font-size: 6em;
+    font-weight: 600;
+    text-shadow: 0 0 10px white;
+}
+
+.presentation p{
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.presentation .texte{
+    width: 800px;
+    height: auto;
+    margin-right: 100px;
+}
+
+/* SECTION 2 */
+@keyframes couleur{
+    100%{
+        box-shadow: 0px 0px 50px #fec675;
     }
 }
 
-.pages{
-    .letout{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .cols1 img, .cols2 img, .cols3 img, .cols4 img, .cols5 img, .cols6 img{
-        width: 300px;
-        height: 300px;
-        margin: 10px;
-        padding: 20px;
-    }
-    .centre{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .cols1, .cols2, .cols3, .cols4, .cols5, .cols6{
-        width: 600px;
-        margin: 10px;
-        padding: 20px;
-        border: 1px solid black;
-        margin-bottom: 50px;
-        background-color: #02735E;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 0 #02735E;
-    }
-    .cols1 button, .cols2 button, .cols3 button, .cols4 button, .cols5 button, .cols6 button{
-        width: 300px;
-        height: 75px;
-        background-color: #038C3E;
-        border-radius: 10px;
-        border: none;
-        cursor: pointer;
-        box-shadow: 0 0 10px 0 #038C3E;
-        margin: 10px;
-    }
-    .cols1 button:hover, .cols2 button:hover, .cols3 button:hover, .cols4 button:hover, .cols5 button:hover, .cols6 button:hover{
-        background-color: orange;
-        box-shadow: 0 0 10px 0 orange;
-    }
-    .cols1 button a, .cols2 button a, .cols3 button a, .cols4 button a, .cols5 button a, .cols6 button a{
-        color: #1d1e31;
-        text-decoration: none;
-    }
-    .cols1 p, .cols2 p, .cols3 p, .cols4 p, .cols5 p, .cols6 p{
-        color: white;
-    }
+.cols1, .cols2, .cols3, .cols4, .cols5, .cols6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #353448;
+    animation: couleur 2s infinite;
 }
 
-@media only screen and (max-width: 500px){
-    body{
-        width: 390px;
-        height: auto;
-    }
+.centre p{
+    font-size: 2em;
+    color: white;
+    margin: 10px;
+}
 
-    .scroll{
-        display: none;
-    }
+.centre img{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
 
-    .texte{
-        width: auto;
-        height: auto;
-        margin: 10px;
-    }
-
-    .texte p{
-        font-size: 1.2em;
-        margin: 10px;
-        width: auto;
-        height: auto;
-    }
-
-    .cols1, .cols2, .cols3, .cols4, .cols5, .cols6{
-        width: 390px;
-    }
-
-    h1{
-        font-size: 2em;
-    }
+.centre button{
+    width: 500px;
+    height: 100px;
+    background-color: #fec675;
+    border: none;
+    box-shadow: 0 0 10px #fec675;
+    cursor: pointer;
+    margin: 10px;
 }
