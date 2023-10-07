@@ -20,12 +20,55 @@ function myFunction(){
 //! POUR AFFICHER DU TEXTE AVEC LE BOUTON
 const afficher = document.querySelector('.afficher');
 const reponse = document.querySelector('#reponse');
-reponse.style.display = "none";
-// ************************
+let statut = true;
 afficher.addEventListener('click', () => {
-    if(reponse.style.display == "block"){
-        reponse.style.display = "none";
-    }else{
+    if(statut){
         reponse.style.display = "block";
+        reponse.style.animation = "slide 0.5s forward";
+        statut = false;
+    }else{
+        reponse.style.display = "none";
+        statut = true;
     }
 })
+
+//! AFFICHER UNE DU TEXTE HAUTE PRESSION EN PLEIN ECRAN
+const hp = document.querySelector('.hp');
+const enplace = document.querySelector('.flex');
+const paragraphe = document.querySelector('java');
+let statut1 = true;
+hp.addEventListener('click', () =>{
+    if(statut1){
+        enplace.style.display = "flex";
+        enplace.style.justifyContent = "center";
+        enplace.style.alignItems = "center";
+        enplace.requestFullscreen();
+        console.log("Afficher");
+        statut1 = false;
+    }else{
+        enplace.style.display = "none";
+        console.log("Caché");
+        statut1 = true;
+    }
+})
+
+//! AFFICHER UNE DU TEXTE 2 BASSE PRESSION EN PLEIN ECRAN
+const bp = document.querySelector('.bp');
+const enplace1 = document.querySelector('.flex1');
+let statut2 = true;
+bp.addEventListener('click', () =>{
+    if(statut2){
+        enplace1.style.display = "flex";
+        enplace1.style.justifyContent = "center";
+        enplace1.style.alignItems = "center";
+        enplace1.requestFullscreen();
+        console.log("Afficher");
+        statut2 = false;
+    }else{
+        enplace1.style.display = "none";
+        console.log("Caché");
+        statut2 = true;
+    }
+})
+
+//! 
