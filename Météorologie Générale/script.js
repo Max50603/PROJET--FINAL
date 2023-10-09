@@ -89,4 +89,40 @@ p.addEventListener('click', () =>{
     }
 })
 
-//! 
+//! AFFICHER TROIS DIV DE TEXTE 
+const anti = document.querySelector('.anti');
+const carre = document.querySelector('.toutcarre');
+let statut4 = true;
+anti.addEventListener('click', () =>{
+    if(statut4){
+        carre.style.display = "flex";
+        carre.style.justifyContent ="center";
+        carre.style.alignItems = "center";
+        carre.style.backgroundColor = "#1d1e31";
+        carre.requestFullscreen();
+        statut4 = false;
+    }else{
+        carre.style.display = "none";
+        statut4 = true;
+    }
+})
+
+//! AFFICHER DEUX DIV DE TEXTE 
+const depression = document.querySelector('.dep');
+const carre1 = document.querySelector('.toutcarre1');
+let statut5 = true;
+depression.addEventListener('click', () =>{
+    if(statut5){
+        carre1.style.display = "flex";
+        carre1.style.justifyContent ="center";
+        carre1.style.alignItems = "center";
+        carre1.style.backgroundColor = "#1d1e31";
+        carre1.requestFullscreen();
+        console.log("Afficher");
+        statut5 = false;
+    }else{
+        carre1.style.display = "none";
+        statut5 = true;
+        console.log("Cache");
+    }
+})

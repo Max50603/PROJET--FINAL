@@ -29,28 +29,27 @@ header{
     left: -100px;
 }
 
-.liens button{
-    width: auto;
-    height: 50px;
-    border-radius: 20px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: relative;
-    box-shadow: 5px 5px 5px black;
+
+nav{
+    background-color: #1d1e31;
+    width: 100%;
+    height: 100px;
 }
 
-.liens button:hover{
-    top: 5px;
-    background-color: white;
-    box-shadow: none;
+.liens{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.liens button a{
+.liens a{
+    margin: 0 20px 0 20px;
+    font-size: 1.4em;
+    text-shadow: 0 0 10px white;
     text-decoration: none;
 }
-
 /* SCROLL BAR */
 .header{
     position: fixed;
@@ -59,7 +58,6 @@ header{
     width: 100%;
     background-color: #f1f1f1;
 }
-
 
 /* DEBUT SCROLLBAR */
 .scroll{
@@ -110,7 +108,7 @@ body, section, p, li, a{
         margin-left: 100px;
     }
     .millecinq{
-        height: 1000px;
+        height: 800px;
     }
     .texte .afficher{
         margin-left: 100px;
@@ -123,17 +121,16 @@ body, section, p, li, a{
         box-shadow: 0 0 10px #fec675;
         font-size: 1.4em;
     }
-
     #reponse p, li{
         font-size: 1.4em;
         margin: 30px;
     }
-
     #reponse{
         display: none;
     }
 }
 
+/* ANNIMATIONS */
 @keyframes slide{
     0%{
         transform: translateX(-100vw);
@@ -142,6 +139,22 @@ body, section, p, li, a{
         transform: translateX(0);
     }
 }
+
+@keyframes rotate{
+    50%{
+        rotate: 5deg;
+        box-shadow: 0 0 20px #fec675;
+    }
+    100%{
+        rotate: -5deg;
+        box-shadow: 0 0 20px #fec675;
+    }
+}
+
+.afficher:hover, .hp:hover, .bp:hover, .p:hover, .anti:hover, .dep:hover{
+    animation: rotate 0.5s infinite;
+}
+/* FIN ANIMATIONS */
 
 /* PARTIE DU TEXTE 1 */
 .flex{
@@ -215,6 +228,14 @@ h2{
 }
 
 /* PARTIE DU TEXTE 3 */
+.flex2{
+    display: none;
+}
+
+.pression h2{
+    margin-top: 100px;
+}
+
 .p{
     margin-left: 10px;
     width: 200px;
@@ -227,10 +248,6 @@ h2{
     font-size: 1.4em;
 }
 
-.flex2{
-    display: none;
-}
-
 .flex2 p{
     font-size: 1.4em;
     margin: 10px;
@@ -239,7 +256,82 @@ h2{
 }
 
 /* PARTIE DU TEXTE 4 */
+.anticyclone h2{
+    margin-top: 100px;
+}
 
+.toutcarre{
+    display: none;
+}
+
+.anticyclone p{
+    font-size: 1.6em;
+    margin: 10px;
+}
+
+.anti{
+    width: 200px;
+    height: 100px;
+    background-color: #fec675;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fec675;
+    margin: 10px;
+    font-size: 1.4em;
+}
+
+.carre1, .carre2, .carre3{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: justify;
+    height: 850px;
+}
+
+.carre1 h3, .carre2 h3, .carre3 h3{
+    background-color: #1d1e31;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+/* PARTIE DU TEXTE 5 */
+.depression h2{
+    margin-top: 100px;
+}
+
+.toutcarre1{
+    display: none;
+}
+
+.depression p{
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+.dep{
+    margin-left: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #fec675;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #fec675;
+    font-size: 1.4em;
+}
+
+.rectangle1, .rectangle2{
+    border: 1px solid black;
+    margin: 10px;
+    width: 500px;
+    text-align: justify;
+}
+
+.rectangle1 h3, .rectangle2 h3{
+    text-align: center;
+    font-size: 1.4em;
+}
 /* FIN PARTIE CORPS DE PAGE */
 
 /* PARTIE CONNEXION DE PAGE */
