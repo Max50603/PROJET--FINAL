@@ -118,11 +118,9 @@ depression.addEventListener('click', () =>{
         carre1.style.alignItems = "center";
         carre1.style.backgroundColor = "#1d1e31";
         carre1.requestFullscreen();
-        console.log("Afficher");
         statut5 = false;
     }else{
         carre1.style.display = "none";
         statut5 = true;
-        console.log("Cache");
     }
 })
