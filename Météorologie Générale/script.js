@@ -42,6 +42,7 @@ hp.addEventListener('click', () =>{
         enplace.style.display = "flex";
         enplace.style.justifyContent = "center";
         enplace.style.alignItems = "center";
+        enplace.style.backgroundColor = "#1d1e31";
         enplace.requestFullscreen();
         console.log("Afficher");
         statut1 = false;
@@ -52,7 +53,7 @@ hp.addEventListener('click', () =>{
     }
 })
 
-//! AFFICHER UNE DU TEXTE 2 BASSE PRESSION EN PLEIN ECRAN
+//! AFFICHER DU TEXTE 2 BASSE PRESSION EN PLEIN ECRAN
 const bp = document.querySelector('.bp');
 const enplace1 = document.querySelector('.flex1');
 let statut2 = true;
@@ -61,13 +62,30 @@ bp.addEventListener('click', () =>{
         enplace1.style.display = "flex";
         enplace1.style.justifyContent = "center";
         enplace1.style.alignItems = "center";
+        enplace1.style.backgroundColor = "#1d1e31";
         enplace1.requestFullscreen();
-        console.log("Afficher");
         statut2 = false;
     }else{
         enplace1.style.display = "none";
-        console.log("Caché");
         statut2 = true;
+    }
+})
+
+//! AFFICHER TEXTE 3 PRESSION EN PLEIN ECRAN
+const p = document.querySelector('.p');
+const flex2 = document.querySelector('.flex2');
+let statut3 = true;
+p.addEventListener('click', () =>{
+    if(statut3){
+        flex2.style.display = "flex";
+        flex2.style.justifyContent = "center";
+        flex2.style.alignItems = "center";
+        flex2.style.backgroundColor = "#1d1e31";
+        flex2.requestFullscreen();
+        statut3 = false;
+    }else{
+        flex2.style.display = "none";
+        statut3 = true;
     }
 })
 
