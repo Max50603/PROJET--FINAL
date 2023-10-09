@@ -130,15 +130,15 @@ body, section, p, li, a{
     }
 }
 
-/* ANNIMATIONS */
-@keyframes slide{
+/* ANIMATIONS */
+/* @keyframes slide{
     0%{
         transform: translateX(-100vw);
     }
     100%{
         transform: translateX(0);
     }
-}
+} */
 
 @keyframes rotate{
     50%{
@@ -152,7 +152,7 @@ body, section, p, li, a{
 }
 
 .afficher:hover, .hp:hover, .bp:hover, .p:hover, .anti:hover, .dep:hover{
-    animation: rotate 0.5s infinite;
+    animation: rotate 0.7s infinite;
 }
 /* FIN ANIMATIONS */
 
