@@ -1,15 +1,7 @@
-/* PARTIE HEADER ET LIENBAR */
-header{
-    background-color: #1d1e31;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-}
-
+/* PARTIE HEADER */
 .pages{
     width: 100%;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,17 +11,28 @@ header{
     font-size: 1.4em;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 0 0 10px white;
+    color: #1d1e31;
+    text-shadow: 0 0 10px #1d1e31;
     margin-left: 50px;
     margin-right: 50px;
+    letter-spacing: 2px;
 }
 
-.suppression-responsive{
-    position: relative;
-    left: -100px;
+.pages a:hover{
+    animation: surligner 0.5s forwards;
 }
 
+@keyframes surligner{
+    0%{
+        text-decoration: none;
+    }
 
+    100%{
+        text-decoration: underline;
+    }
+}
+
+/* PARTIE LIENBAR */
 nav{
     background-color: #1d1e31;
     width: 100%;
