@@ -333,13 +333,3 @@ h2{
     font-size: 1.4em;
 }
 /* FIN PARTIE CORPS DE PAGE */
-
-/* PARTIE CONNEXION DE PAGE */
-.connexion a{
-    position: absolute;
-    left: 100px;
-    color: black;
-    text-decoration: underline;
-    font-weight: 700;
-}
-/* FIN PARTIE CONNEXION */
