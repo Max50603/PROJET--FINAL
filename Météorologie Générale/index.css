@@ -102,14 +102,26 @@ body, section, p, li, a{
     color: white;
 }
 
+@keyframes apparition{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
 .haute-pression{
     .texte h1{
         font-size: 6em;
         text-shadow: 0 0 10px white;
-        width: 900px;
+        width: 950px;
+        letter-spacing: 5px;
         height: auto;
         margin-left: 100px;
+        animation: apparition 1.5s forwards;
     }
+    
     .millecinq{
         height: 800px;
     }
