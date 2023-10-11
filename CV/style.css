@@ -26,6 +26,7 @@ body{
     position: relative;
     top: 50px;
     width: 450px;
+    height: 650px;
     z-index: 1;
 }
 

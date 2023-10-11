@@ -98,6 +98,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1d1e31;
 }
 
 .btn1, .icone{
@@ -110,18 +111,17 @@ body{
 /* FIN CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion{
 
-}
 /* FIN PARTIE CONNEXION */
 
 /* PARTIE API METEO */
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background-color: #1d1e31;
     color: #fff;
-    margin: 0 auto 0;
+    margin: 10px auto 10px;
+    border: 2px solid black;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
