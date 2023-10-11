@@ -124,3 +124,14 @@ depression.addEventListener('click', () =>{
         statut5 = true;
     }
 })
+
+//! TITRE H2 QUI S'AFFICHE AU SCROLL DE LA SOURIS
+function showH2OnScroll() {
+    const h2Elements = document.querySelectorAll('h2');
+    window.addEventListener('scroll', () => {
+        for (const h2Element of h2Elements){
+            const isH2InView = h2Element.getBoundingClientRect().top <= window.scrollY + 200;
+            h2Element.style.display = isH2InView ? 'block' : 'none';
+        }
+    });
+}showH2OnScroll();

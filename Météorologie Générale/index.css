@@ -40,7 +40,7 @@ nav{
 }
 
 .liens{
-    width: 90%;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -111,13 +111,17 @@ body, section, p, li, a{
     }
 }
 
+.espace{
+    height: 800px;
+    animation: slide 1s forwards;
+}
+
 .haute-pression{
     .texte h1{
         font-size: 6em;
-        text-shadow: 0 0 10px white;
+        text-shadow: 0 0 5px white;
         width: 950px;
         letter-spacing: 5px;
-        height: auto;
         margin-left: 100px;
         animation: apparition 1.5s forwards;
     }
@@ -146,14 +150,18 @@ body, section, p, li, a{
 }
 
 /* ANIMATIONS */
-/* @keyframes slide{
+@keyframes slide{
     0%{
-        transform: translateX(-100vw);
+        transform: translateX(-1000px);
     }
     100%{
         transform: translateX(0);
     }
-} */
+}
+
+h2, .h21{
+    animation: slide 1s forwards;
+}
 
 @keyframes rotate{
     50%{
@@ -207,14 +215,14 @@ h2{
     color: white;
     margin: 10px;
     font-size: 5em;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 5px white;
 }
 
 /* PARTIE DU TEXTE 2 */
 .texte .h21{
     margin-top: 100px;
     font-size: 6em;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 5px white;
     height: auto;
 }
 
