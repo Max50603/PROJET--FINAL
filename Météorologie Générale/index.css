@@ -102,18 +102,11 @@ body, section, p, li, a{
     color: white;
 }
 
-@keyframes apparition{
-    0%{
-        transform: translateX(-1000px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
-
 .espace{
     height: 800px;
     animation: slide 1s forwards;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .haute-pression{
@@ -123,7 +116,6 @@ body, section, p, li, a{
         width: 950px;
         letter-spacing: 5px;
         margin-left: 100px;
-        animation: apparition 1.5s forwards;
     }
     
     .millecinq{
@@ -158,7 +150,6 @@ body, section, p, li, a{
         transform: translateX(0);
     }
 }
-
 h2, .h21{
     animation: slide 1s forwards;
 }
@@ -173,9 +164,20 @@ h2, .h21{
         box-shadow: 0 0 20px #fec675;
     }
 }
-
 .afficher:hover, .hp:hover, .bp:hover, .p:hover, .anti:hover, .dep:hover{
     animation: rotate 0.7s infinite;
+}
+
+@keyframes apparition{
+    0%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.texte h1{
+    animation: apparition 1.5s forwards;
 }
 /* FIN ANIMATIONS */
 

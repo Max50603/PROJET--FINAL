@@ -1,4 +1,4 @@
-//  BOUTON SMOOTH REMONTER HAUT
+//!  BOUTON SMOOTH REMONTER HAUT
 const btn = document.querySelector('.scroll');
 btn.addEventListener('click', () => {
     window.scrollTo({
@@ -8,11 +8,20 @@ btn.addEventListener('click', () => {
     });
 })
 
+//! SCROLLBAR
+window.onscroll = function() {myFunction()};
+function myFunction(){
+  let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  let scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
 // CORPS DE PAGE
 let toutBody = document.querySelector('body');
-// console.log(toutBody);
     toutBody.style.margin = "0px";
     toutBody.style.padding = "0px";
+    toutBody.style.backgroundColor = "#1d1e31";
 
 
 // LE GROS TITRE
