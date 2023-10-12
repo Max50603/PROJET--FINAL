@@ -18,7 +18,7 @@ function myFunction(){
 }
 
 //! BOUTON EN SAVOIR PLUS QUI AFFICHE DU TEXTE EN PLUS
-const texte = document.querySelector('.cv');
+const texte = document.querySelector('.infos');
 const enplus = document.querySelector('.texteplus');
 let statut = true;
 texte.addEventListener('click', () =>{
@@ -31,3 +31,5 @@ texte.addEventListener('click', () =>{
         statut = true;
     }
 })
+
+//! ANIMATION SLIDE DES MES DIVS COLS

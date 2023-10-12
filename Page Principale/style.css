@@ -100,7 +100,7 @@ a{
     margin-right: 100px;
 }
 
-.cv, .cv1{
+.infos, .cv{
     width: 200px;
     height: 50px;
     font-size: 1.4em;
@@ -112,7 +112,7 @@ a{
     box-shadow: 0 0 10px #fec675;
 }
 
-.cv:hover, .cv1:hover{
+.infos:hover, .cv:hover{
     box-shadow: 0 0 15px #fec675;
 }
 
@@ -150,8 +150,9 @@ a{
     width: 1400px;
     height: auto;
     border-radius: 10px;
-    margin: 100px auto;
+    margin: 500px auto;
     background-color: #353448;
+    animation: slide 1s forwards;
 }
 
 .cols1:hover, .cols2:hover, .cols3:hover, .cols4:hover, .cols5:hover, .cols6:hover{
