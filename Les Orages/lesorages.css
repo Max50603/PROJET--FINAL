@@ -140,7 +140,7 @@ img{
 /* DEBUT DES SECTIONS */
 .presentation h1{
     width: 600px;
-    height: 200px;
+    height: auto;
     font-size: 6em;
     color: white;
     text-shadow: 0 0 5px white;

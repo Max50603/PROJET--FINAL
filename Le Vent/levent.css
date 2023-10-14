@@ -91,7 +91,7 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
-    background-position: center;
+    background-color: #1d1e31;
 }
 
 body, section, p, li, a{
@@ -109,31 +109,45 @@ body, section, p, li, a{
 }
 
 section h1{
-    width: 100%;
+    width: 500px;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #31489f;
-    font-size: 4em;
+    margin-left: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 6em;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 30px;
+    animation: apparait 0.7s forwards;
 }
 
-section h2 mark, h2 mark{
+@keyframes apparait {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+section h2, h2{
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #31489f;
+    background-color: #fec675;
     color: white;
     padding: 10px;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
-section p{
+section p, .grid p{
     font-size: 1.4em;
-    margin: 10px;
+    margin: 30px;
     text-align: justify;
+    color: white;
 }
 
 .g1, .g2, .g3{

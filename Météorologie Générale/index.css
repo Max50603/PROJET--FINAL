@@ -112,13 +112,18 @@ body, section, p, li, a{
 
 .haute-pression{
     .texte h1{
-        font-size: 6em;
+        width: 900px;
+        height: auto;
+        margin: 100px;
+        color: white;
         text-shadow: 0 0 5px white;
-        width: 950px;
-        letter-spacing: 5px;
-        margin-left: 100px;
+        font-size: 6em;
+        animation: apparition 0.7s forwards;
+        text-align: center;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-radius: 30px;
     }
-    
     .millecinq{
         height: 800px;
     }

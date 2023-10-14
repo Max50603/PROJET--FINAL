@@ -105,13 +105,17 @@ body{
 
 /*! SECTION NUAGES */
 .titre1 h1{
-    font-size: 6em;
-    color: white;
     width: 600px;
     height: auto;
+    font-size: 6em;
+    color: white;
     text-shadow: 0 0 5px white;
-    animation: slide 0.7s forwards;
     margin-left: 100px;
+    text-align: center;
+    animation: slide 0.7s forwards;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 30px;
 }
 
 .flex{

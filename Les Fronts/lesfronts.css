@@ -34,7 +34,7 @@
 
 /* PARTIE LIENBAR */
 nav{
-    background-color: #1d1e31;
+    background-color: white;
     width: 100%;
     height: 100px;
 }
@@ -48,10 +48,11 @@ nav{
 }
 
 .liens a{
-    margin: 0 20px 0 20px;
+    margin: 0 30px 0 30px;
     font-size: 1.4em;
-    text-shadow: 0 0 10px white;
     text-decoration: none;
+    color: #1d1e31;
+    text-shadow: 0 0 5px #1d1e31;
 }
 /* SCROLL BAR */
 .header{
@@ -67,7 +68,8 @@ nav{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #fec675;
+    border: none;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -82,7 +84,7 @@ nav{
 .progressbar{
     height: 8px;
     background-color: #fec675;
-    width: 0%;
+    width: 0;
 }
 /* FIN SCROLLBAR */
 
@@ -92,7 +94,9 @@ body{
     height: auto;
     margin: 0;
     padding: 0;
-    background-image: url("../img/fond4.jpg");
+    background-color: #1d1e31;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 }
 
 .btn1, .icone{
@@ -106,37 +110,49 @@ body{
 }
 
 section h1{
-    width: 100%;
+    width: 600px;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #31489f;
-    font-size: 4em;
+    margin: 100px;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 6em;
+    animation: apparait 0.7s forwards;
+    text-align: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 30px;
+}
+
+@keyframes apparait {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
 
 section p{
     color: white;
-}
-
-section mark{
-    background-color: #31489f;
-    color: white;
-}
-
-section h2 mark{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-size: 1.6em;
-}
-
-section p{
-    margin: 10px;
     font-size: 1.4em;
+}
+
+section h2, h3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #fec675;
+    padding: 10px;
+    font-size: 2em;
+}
+
+section p{
+    margin: 30px;
+    font-size: 1.4em;
+    text-align: justify;
 }
 
 section img{
@@ -168,100 +184,13 @@ section .flex{
     align-items: center;
 }
 
+section img{
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+}
 /* PARTIE RESPONSIVE */
-@media only screen and (max-width: 1585px){
-    .depression .centre-responsive{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
 
-@media only screen and (max-width: 1140px){
-    section p{
-        font-size: 1.2em;
-    }
-
-    img{
-        width: 350px;
-        height: 350px;
-    }
-}
-
-@media only screen and (max-width: 1060px){
-    .container{
-        display: none;
-    }
-
-    .pages{
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-}
-
-@media only screen and (max-width: 935px){
-    img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .suppression-responsive{
-        display: none;
-    }
-
-    .pages button a{
-        font-size: 1.0em;
-    }
-}
-
-@media only screen and (max-width: 710px){
-    section h1{
-        font-size: 2.0em;
-    }
-
-    .pages button a{
-        font-size: 0.8em;
-    }
-
-    .btn1{
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    body{
-        width: auto;
-        height: auto;
-    }
-
-    section .flex{
-        display: block;
-    }
-
-    .centre-responsive{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .centre-responsive img{
-        margin: 10px;
-        width: 300px;
-        height: 300px;
-    }
-
-    .depression .centre-responsive{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    section h2 mark{
-        text-align: center;
-        font-size: 1.4em;
-    }
-}
 /* FIN DE LA PARTIE RESPONSIVE */
 /* FIN DE CORPS DE PAGE */
 

@@ -1,94 +1,57 @@
-/* PARTIE HEADER ET LIENBAR */
-header{
-    width: 100%;
-    height: 100px;
-    background-color: #31489f;
-    display: flex;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
-.container1{
-    width: 100px;
-    height: 100px;
-    background-image: url(../img/logo.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    overflow: hidden;
-}
-
+/* PARTIE HEADER */
 .pages{
-    width: 90%;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    left: 10%;
-}
-
-.pages button{
-    width: auto;
-    height: 50px;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: relative;
-    box-shadow: 5px 5px 5px black;
-}
-
-.pages button:hover{
-    top: 5px;
-    background-color: transparent;
-    box-shadow: none;
-}
-
-.pages button a{
-    font-size: 20px;
-    color: white;
-}
-
-.liens{
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pages a{
+    font-size: 1.4em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1d1e31;
+    text-shadow: 0 0 10px #1d1e31;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 2px;
+}
+
+.pages a:hover{
+    animation: surligner 0.5s forwards;
+}
+
+@keyframes surligner{
+    0%{
+        text-decoration: none;
+    }
+
+    100%{
+        text-decoration: underline;
+    }
+}
+
+/* PARTIE LIENBAR */
+nav{
+    background-color: white;
     width: 100%;
     height: 100px;
-    background-color: #31489f;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
-.suppression-responsive{
-    position: absolute;
-    left: -100px;
+.liens{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.liens button{
-    width: auto;
-    height: 50px;
-    border-radius: 20px;
-    margin: 10px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: relative;
-    box-shadow: 5px 5px 5px black;
-}
-
-.liens button:hover{
-    top: 5px;
-    background-color: white;
-    box-shadow: none;
-}
-
-.liens button a{
+.liens a{
+    margin: 0 20px 0 20px;
+    font-size: 1.4em;
+    text-shadow: 0 0 5px #1d1e31;
+    color: #1d1e31;
     text-decoration: none;
 }
 /* FIN PARTIE HEADER ET LIENBAR */
@@ -118,9 +81,9 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background-color: #1d1e31;
+    background-color: #fec675;
     color: #fff;
-    margin: 10px auto 10px;
+    margin: 20px auto 20px;
     border: 2px solid black;
     border-radius: 20px;
     padding: 40px 35px;
