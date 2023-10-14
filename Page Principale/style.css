@@ -153,6 +153,7 @@ a{
     margin: 500px auto;
     background-color: #353448;
     animation: slide 1s forwards;
+    padding: 20px;
 }
 
 .cols1:hover, .cols2:hover, .cols3:hover, .cols4:hover, .cols5:hover, .cols6:hover{

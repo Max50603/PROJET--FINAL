@@ -33,3 +33,26 @@ texte.addEventListener('click', () =>{
 })
 
 //! ANIMATION SLIDE DES MES DIVS COLS
+// function showH2OnScroll() {
+//     const h2Elements = document.querySelectorAll('.cols1');
+//     const visibilityState = {};
+
+//     window.addEventListener('scroll', () => {
+//         for (const h2Element of h2Elements) {
+//             const isH2InView = h2Element.getBoundingClientRect().top <= window.scrollY + 200;
+
+//             
+//             if (isH2InView && !visibilityState[h2Element.id]) {
+//                 h2Element.style.display = 'flex';
+//                 visibilityState[h2Element.id] = true;
+//             }else{
+//                 h2Element.style.display = 'none';
+//                 visibilityState[h2Element.id] = false;
+//             }
+
+//             console.log(isH2InView);
+//         }
+//     });
+// }
+
+// showH2OnScroll();
