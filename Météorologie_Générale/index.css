@@ -138,7 +138,7 @@ body, section, p, li, a{
         box-shadow: 0 0 10px #fec675;
         font-size: 1.4em;
     }
-    #reponse p, li{
+    #reponse p, #reponse li{
         font-size: 1.4em;
         margin: 30px;
     }

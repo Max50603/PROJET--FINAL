@@ -1,0 +1,23 @@
+/* REGLAGE DE BASE */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1d1e31;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: #fec675;
+}
+
+p, li{
+    color: white;
+    margin: 30px;
+    font-size: 1.4em;
+}
+
+/* DEBUT DES HOSTILITES */
