@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/.~lock.PROJET FINALE POWERPOINT.odp#" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/PROJET_HMTL/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/PROJET_HMTL/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/PROJET_HMTL/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/PROJET_HMTL/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,8 @@
       <workItem from="1697355483294" duration="4803000" />
       <workItem from="1697367038635" duration="602000" />
       <workItem from="1697370923164" duration="7000" />
-      <workItem from="1697372359832" duration="358000" />
+      <workItem from="1697372359832" duration="8133000" />
+      <workItem from="1697414205831" duration="5111000" />
     </task>
     <servers />
   </component>
