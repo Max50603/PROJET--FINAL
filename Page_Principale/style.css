@@ -23,7 +23,7 @@ body{
 .progressbar{
     height: 8px;
     background-color: #fec675;
-    width: 0%;
+    width: 0;
 }
 /* FIN SCROOL BAR */
 
