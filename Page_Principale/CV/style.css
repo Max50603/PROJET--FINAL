@@ -73,7 +73,6 @@ body{
 .separateur{
     width: 400px;
     height: 10px;
-    margin-top: 50px;
     border-top: 5px solid white;
     margin: 20px auto;
 }
@@ -103,8 +102,6 @@ body{
 .separateur1{
     width: 450px;
     height: 10px;
-    margin-top: 50px;
-    margin-bottom: 0;
     border-top: 3px solid yellow;
     margin: 0 auto;
 }

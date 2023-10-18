@@ -31,5 +31,3 @@ texte.addEventListener('click', () =>{
         statut = true;
     }
 })
-
-//! ANIMATION SLIDE DES MES DIVS COLS
