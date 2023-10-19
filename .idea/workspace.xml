@@ -6,17 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/CV/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/CV/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Le_Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Le_Vent/levent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Nuages/Nuages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/Nuages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Orages/Orages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/Orages.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Les_Orages/lesorages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/lesorages.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJET/CHANGELOG V1.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/CHANGELOG V1.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Principale/CV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/CV/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Principale/CV/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/CV/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page_Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_Videos/photovideo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Photos_Videos/photovideo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photos_Videos/photovideo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Photos_Videos/photovideo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +131,11 @@
       <workItem from="1697547566518" duration="273000" />
       <workItem from="1697547881382" duration="194000" />
       <workItem from="1697570853824" duration="399000" />
-      <workItem from="1697614146546" duration="1757000" />
+      <workItem from="1697614146546" duration="2669000" />
+      <workItem from="1697627640891" duration="5326000" />
+      <workItem from="1697634788148" duration="240000" />
+      <workItem from="1697647532774" duration="1201000" />
+      <workItem from="1697697347914" duration="6736000" />
     </task>
     <servers />
   </component>

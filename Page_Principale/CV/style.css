@@ -8,7 +8,7 @@ body{
 
 .container{
     width: 1000px;
-    height: 1500px;
+    height: auto;
     background-color: red;
     margin: 0 auto;
     position: relative;
@@ -18,7 +18,7 @@ body{
 .container1{
     position: absolute;
     width: 40%;
-    height: 1500px;
+    height: 2000px;
     background-color: #fec675;
 }
 
@@ -26,8 +26,12 @@ body{
     position: relative;
     top: 50px;
     width: 450px;
-    height: 650px;
+    height: 600px;
     z-index: 1;
+}
+
+.container1 ul li{
+    font-weight: 500;
 }
 
 .informations{
@@ -50,7 +54,7 @@ body{
     position: absolute;
     left: 400px;
     width: 60%;
-    height: 1500px;
+    height: 2000px;
     background-color: #1d1e31;
 }
 
@@ -86,27 +90,32 @@ body{
     margin-top: 10px;
 }
 
-.container2 p{
+.container2 p, .container2 ul li{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.0em;
     width: 400px;
     margin-left: 100px;
     margin-top: 0;
+    text-align: justify;
+}
+
+.container2 p mark{
+    background-color: #fec675;
 }
 
 .titre{
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 800;
+    margin: 15px;
 }
 
 .separateur1{
-    width: 450px;
+    width: 400px;
     height: 10px;
     border-top: 3px solid yellow;
     margin: 0 auto;
 }
 
 .cinquantep{
-    margin-top: 150px;
-    margin-left: -50px;
+    margin-top: 100px;
 }
