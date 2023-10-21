@@ -84,7 +84,7 @@ nav{
 
 /*! CORPS DE PAGE */
 body{
-    width: 1600px;
+    width: 1450px;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -151,7 +151,7 @@ html{
 .texte10{
     color: white;
     font-size: 1.4em;
-    margin: 30px;
+    margin: 40px;
     text-align: justify;
 }
 
@@ -171,7 +171,7 @@ html{
 }
 
 .texte2{
-    margin: 30px;
+    margin: 40px;
     text-align: justify;
     color: white;
     font-size: 1.4em;
@@ -193,7 +193,7 @@ html{
 }
 
 .texte3{
-    margin: 30px;
+    margin: 40px;
     color: white;
     text-align: justify;
     font-size: 1.4em;
@@ -206,11 +206,11 @@ html{
     border: 2px solid black;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .left1{
-    margin: 30px;
+    margin: 40px;
     width: 500px;
     height: 500px;
 }
@@ -222,7 +222,7 @@ html{
     border: 2px solid black;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .titre5 h2{
@@ -240,7 +240,7 @@ html{
 }
 
 .texte4{
-    margin: 30px;
+    margin: 40px;
     color: white;
     font-size: 1.4em;
     text-align: justify;
@@ -253,13 +253,13 @@ html{
     border: 2px solid black;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .left2{
     width: 500px;
     height: 500px;
-    margin: 30px;
+    margin: 40px;
 }
 
 .titre6 h2{
@@ -277,7 +277,7 @@ html{
 }
 
 .texte5{
-    margin: 30px;
+    margin: 40px;
     color: white;
     font-size: 1.4em;
     text-align: justify;
@@ -307,14 +307,14 @@ html{
 .texte6{
     color: white;
     font-size: 1.4em;
-    margin: 30px;
+    margin: 40px;
     text-align: justify;
 }
 
 .texte7{
     font-size: 1.4em;
     color: white;
-    margin: 30px;
+    margin: 40px;
 }
 
 /*! SECTION NUAGES */
@@ -334,7 +334,7 @@ html{
 
 .cir, .alt, .strat, .cumulo{
     border: 5px solid black;
-    margin: 30px;
+    margin: 40px;
     box-shadow: 0 0 10px black;
     border-radius: 10px;
 }
@@ -345,18 +345,18 @@ html{
     align-items: center;
     color: white;
     font-size: 1.4em;
-    margin: 30px;
+    margin: 40px;
     text-align: justify;
 }
 
 .texte p{
-    margin: 30px;
+    margin: 40px;
 }
 
 .texte img{
     width: 500px;
     height: 500px;
-    margin: 30px;
+    margin: 40px;
 }
 /*! FIN DE CORPS DE PAGE */
 

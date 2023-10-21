@@ -92,7 +92,7 @@ nav{
 /* CORPS DE PAGE */
 /* MISE EN PLACE */
 body{
-    width: 1600px;
+    width: 1450px;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -110,7 +110,7 @@ body, section, p, li, a{
 
 p, li{
     font-size: 1.4em;
-    margin: 30px;
+    margin: 40px;
     text-align: justify;
     color: white;
 }
@@ -138,7 +138,7 @@ h2, h3, h4{
 img{
     width: 500px;
     height: 500px;
-    margin: 30px;
+    margin: 40px;
 }
 /* FIN DE LA MISE EN PLACE */
 
@@ -169,7 +169,7 @@ img{
 }
 
 .presentation img{
-    margin: 10px 30px 10px 30px;
+    margin: 10px 40px 10px 40px;
 }
 
 .presentation .flex{
@@ -204,7 +204,7 @@ img{
     font-size: 2em;
 }
 .stable p{
-    margin: 30px;
+    margin: 40px;
 }
 
 .instable{
@@ -232,7 +232,7 @@ img{
         align-items: center;
     }
     .texte p{
-        margin: 30px;
+        margin: 40px;
     }
 
     .titre{
@@ -246,7 +246,7 @@ img{
     .centreimage{
         width: 100%;
         height: 500px;
-        margin: 30px;
+        margin: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -283,7 +283,7 @@ img{
         align-items: center;
     }
     .texte p{
-        margin: 30px;
+        margin: 40px;
     }
 }
 
@@ -306,8 +306,8 @@ img{
     }
 
     .p1, .p2, .p3, .p4{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -323,7 +323,7 @@ img{
         box-shadow: 5px 5px 5px black;
     }
     .texte p, .texte li{
-        margin: 30px;
+        margin: 40px;
     }
 }
 
@@ -332,7 +332,7 @@ img{
         font-size: 1.6em;
     }
     .classe1 p, .classe2 p, .classe3 p, .classe4 p, .classe5 p, .classe6 p, .classe7 p, .classe8 p{
-        margin: 30px;
+        margin: 40px;
     }
     .classe1, .classe2, .classe3, .classe4, .classe5, .classe6, .classe7, .classe8{
         display: flex;
@@ -376,7 +376,7 @@ article {
     .premiereligne img, .deuxiemeligne img {
         width: 200px;
         height: 300px;
-        margin: 30px;
+        margin: 40px;
     }
 
     .premiereligne, .deuxiemeligne {
