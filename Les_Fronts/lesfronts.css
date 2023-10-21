@@ -19,7 +19,7 @@
 }
 
 .pages a:hover{
-    animation: surligner 0.5s forwards;
+    animation: surligner 0s forwards;
 }
 
 @keyframes surligner{
@@ -63,34 +63,9 @@ nav{
     background-color: #f1f1f1;
 }
 
-/* DEBUT SCROLLBAR */
-.scroll{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #fec675;
-    border: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
-
-.scroll-bar{
-    width: 100%;
-    height: 8px;
-    background-color: #ccc;
-}
-
-.progressbar{
-    height: 8px;
-    background-color: #fec675;
-    width: 0;
-}
-/* FIN SCROLLBAR */
-
 /* CORPS DE PAGE */
 body{
-    width: 1450px;
+    width: 1500px;
     height: auto;
     margin: 0 auto;
     padding: 0;
@@ -101,6 +76,18 @@ body{
 
 html{
     background-color: white;
+}
+
+.scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fec675;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .btn1, .icone{

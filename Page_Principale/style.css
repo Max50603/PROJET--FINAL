@@ -1,32 +1,26 @@
 body{
-    margin: 0;
+    width: 1500px;
+    margin: 0 auto;
     padding: 0;
     background-color: #1d1e31;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* SCROLL BAR */
-.header{
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    background-color: #f1f1f1;
+html{
+    background-color: white;
 }
 
-.scroll-bar{
-    width: 100%;
-    height: 8px;
-    background-color: #ccc;
-}
-
-.progressbar{
-    height: 8px;
+.scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     background-color: #fec675;
-    width: 0;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
-/* FIN SCROOL BAR */
-
 /* PARTIE HEADER ET LIENBAR */
 nav{
     width: 100%;

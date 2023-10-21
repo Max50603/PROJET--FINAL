@@ -19,7 +19,7 @@
 }
 
 .pages a:hover{
-    animation: surligner 0.5s forwards;
+    animation: surligner 0s forwards;
 }
 
 @keyframes surligner{
