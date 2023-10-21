@@ -6,14 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Le_Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Orages/lesorages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/lesorages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Phénomènes_Extrèmes/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes_Extrèmes/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Langage/ADRAR/PROJET-FINAL&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/Langage/ADRAR/PROJET-FINAL",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Langage\ADRAR\PROJET-FINAL\Page_Principale" />
@@ -131,7 +126,7 @@
       <workItem from="1697697347914" duration="7186000" />
       <workItem from="1697749069123" duration="27000" />
       <workItem from="1697809636409" duration="57000" />
-      <workItem from="1697894217064" duration="4049000" />
+      <workItem from="1697894217064" duration="5960000" />
     </task>
     <servers />
   </component>

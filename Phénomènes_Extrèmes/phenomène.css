@@ -102,16 +102,23 @@ html{
     background-color: white;
 }
 
+img{
+    margin: 40px;
+}
 /*LE GROS TITRE*/
-h1{
-    font-size: 6em;
+.bigtitre{
     width: 700px;
-    color: white;
-    text-shadow: 0 0 5px white;
-    margin: 100px;
+    text-align: center;
     border-left: 2px solid white;
     border-right: 2px solid white;
     border-radius: 30px;
+    margin: 100px;
+}
+
+h1{
+    font-size: 6em;
+    color: white;
+    text-shadow: 0 0 5px white;
     animation: apparition 0.7s forwards;
 }
 
@@ -125,7 +132,104 @@ h1{
 }
 
 /*CONTENUS PAGE*/
+/*SECTION OURAGAN*/
+.ouragan .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
 
+.ouragan h2{
+    margin: 40px;
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec675;
+    padding: 10px;
+}
+
+.ouragan p{
+    margin: 40px;
+    font-size: 1.4em;
+    color: white;
+    text-align: justify;
+}
+
+.ouragan img{
+    width: 500px;
+    height: 500px;
+}
+
+.ouragan .centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECTION TORNADE*/
+.tornade .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tornade h2{
+    margin: 40px;
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec675;
+    padding: 10px;
+}
+
+.tornade p, li{
+    margin: 40px;
+    font-size: 1.4em;
+    text-align: justify;
+    color: white;
+}
+
+.tornade .ensemble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECTION TEMPETE*/
+.tempete .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempete img{
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+}
+
+.tempete h2{
+    margin: 40px;
+    font-size: 2.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec675;
+    padding: 10px;
+}
+
+.tempete p{
+    color: white;
+    text-align: justify;
+    font-size: 1.4em;
+    margin: 40px;
+}
 /* FIN DE CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
