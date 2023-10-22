@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Le_Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Le_Vent/levent.html" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Nuages/Nuages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/Nuages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Orages/Orages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/Orages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Orages/lesorages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/lesorages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/CHANGELOG V1.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/CHANGELOG V1.0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Météo/pagemeteo.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Météo/pagemeteo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.css" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phénomènes_Extrèmes/phenomène.html" afterDir="false" />
-    </list>
+    <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +123,7 @@
       <workItem from="1697809636409" duration="57000" />
       <workItem from="1697894217064" duration="6798000" />
       <workItem from="1697929015267" duration="2003000" />
+      <workItem from="1698002259102" duration="12000" />
     </task>
     <servers />
   </component>
