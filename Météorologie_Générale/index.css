@@ -32,7 +32,7 @@
     }
 }
 
-/*! PARTIE LIENBAR */
+/*! PARTIE FOOTER */
 nav{
     background-color: #fec675;
     width: 100%;
@@ -252,7 +252,7 @@ h1{
     margin: 20px;
 }
 
-/*SECTION DEPRESSION*/
+/*!SECTION DEPRESSION*/
 .depression h2{
     height: auto;
     background-color: #fec675;
