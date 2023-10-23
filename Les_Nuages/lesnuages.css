@@ -51,10 +51,9 @@ nav{
     margin: 0 20px 0 20px;
     font-size: 1.4em;
     color: #1d1e31;
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px #1d1e31;
     text-decoration: none;
 }
-
 /*! FIN PARTIE HEADER ET LIENBAR */
 
 /*! CORPS DE PAGE */

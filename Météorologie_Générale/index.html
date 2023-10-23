@@ -9,7 +9,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="script.js" async></script>
-    <title>La Météorologie</title>
+    <title>Météorologie Générale</title>
 </head>
 <body>
     <button class="scroll" type="button"></button>
@@ -26,24 +26,18 @@
     </header>
     <section class="haute-pression">
         <div class="texte">
-            <div class="millecinq">
-                <h1>LA METEOROLOGIE GENERALE</h1>
-                <button type="button" class="afficher">En savoir plus</button>    
-                <div id="reponse">
-                    <p>Quand il s'agit d'interpréter le temps, un des aspects importants concerne la compréhension des actions causées par des différences de pression dans l'air.
-                        Il existe 2 différences de pressions dans l’air:</p>
-                    <ul>
-                        <li>Les Hautes Pressions: Elles entraînent généralement un temps sec.</li>
-                        <li>Les Basses Pressions: Elles sont souvent associées à des masses d’air humide et éventuellement à des précipitations.</li>
-                    </ul>
-                </div>            
-            </div>
-            <div class="espace">
+            <h1>LA METEOROLOGIE GENERALE</h1>
+                <p>Quand il s'agit d'interpréter le temps, un des aspects importants concerne la compréhension des actions causées par des différences de pression dans l'air.
+                    Il existe 2 différences de pressions dans l’air:</p>
+                <ul>
+                    <li>Les Hautes Pressions: Elles entraînent généralement un temps sec.</li>
+                    <li>Les Basses Pressions: Elles sont souvent associées à des masses d’air humide et éventuellement à des précipitations.</li>
+                </ul>
+            <div class="titre">
                 <h2>Les Hautes Pressions:</h2>
-                <button type="button" class="hp">Afficher</button>
             </div>    
             <div class="flex">
-                <p class="java">Un système anticyclonique (Hautes Pressions) est une une masse qui contient de l’air plus dense, car cet air est plus froid et/ou plus sec que l’air environnant.
+                <p>Un système anticyclonique (Hautes Pressions) est une une masse qui contient de l’air plus dense, car cet air est plus froid et/ou plus sec que l’air environnant.
                 Ainsi, cet air plus lourd tombe vers le bas et s’éloigne du centre du système, comme l’eau qui tombe sur le sol. Dans ce cas d’un système anticyclonique,
                 le temps a tendance à être clair ou à s’améliorer.</p>
                 <div class="centre-responsive">
@@ -54,13 +48,10 @@
     </section>
     <section class="basse-pression">
         <div class="texte">
-            <div class="droite">
-                <div class="espace">
-                    <h2 class="h2">Les Basses Pressions:</h2>
-                    <button type="button" class="bp">Afficher</button>
-                </div>    
+            <div class="titre">
+                <h2>Les Basses Pressions:</h2>
             </div>
-            <div class="flex1">
+            <div class="flex">
                 <div class="centre-responsive">
                     <img src="../img/Fig.-2_lightbox.png" alt="Basse Pressions"><br>
                 </div>
@@ -74,12 +65,11 @@
         </div>
     </section>
     <section class="pression">
-        <div class="espace">
+        <div class="titre">
             <h2>La pression atmosphérique:</h2>
-            <button type="button" class="p">Afficher</button>
         </div>    
         <div class="texte">
-            <div class="flex2">
+            <div class="flex">
                 <p>Le poids de l'air exerce à la surface de la Terre une force, c'est la pression atmosphérique. Ainsi, une colonne d'air de section 1 m2, du sol jusqu'au sommet de l'atmosphère, a une masse de 10 000 kg soit la masse d'environ huit automobiles.
                     C'est un peu comme si, à chaque instant, nous avions l'équivalent de 10 mètres d'eau sur nos épaules.
                     L'unité de pression utilisée en météorologie est l'hectopascal (hPa). Autrefois, on employait le millibar (mb) ou encore le millimètre de mercure (mmHg).
@@ -106,11 +96,10 @@
         </div>
     </section>
     <section class="anticyclone">
-        <div class="espace">
+        <div class="texte">
             <h2>INTERPRÉTATION D’UN SYSTÈME ANTICYCLONIQUE:</h2>
             <p><mark>Un anticyclone:</mark> Les vents tourne autour de l’anticyclone dans le sens horaires (sens des aiguilles d’une montre) à l’hémisphère nord et dans le sens anti horaire (sens inverse des aiguilles d’une montre) à l’hémisphère sud. C’est l’inverse pour la dépression.
             Des conditions anticycloniques indiquent un temps clair et calme, avec peu de probabilités de précipitations. Un air plus sec donne généralement des températures très fortes ou très basses. Voyons plusieurs types d'Anticyclones:</p>
-            <button type="button" class="anti">Différents Anticyclones</button>
         </div>    
             <div class="toutcarre">
                 <div class="carre1">
@@ -139,13 +128,12 @@
             </div>
     </section>
     <section class="depression">
-        <div class="espace">
+        <div class="texte">
             <h2>INTERPRÉTATION D’UN SYSTÈME DÉPRESSIONNAIRE:</h2>
             <p><mark>Une dépression:</mark> Les vents tourne autour de la dépression dans le sens horaires (sens des aiguilles d’une montre) à l’hémisphère sud et dans le sens anti horaire (sens inverse des aiguille d’une montre) à l’hémisphère nord. C’est l’inverse pour l’anticyclone: C’est grâce à l’effet de Coriolis (Rotation de la Terre) que le vents tourne.
             Ces tempêtes sont caractérisées par des nuages en formation, ainsi que des vents, des températures et une probabilité de précipitations. 
             Sur une carte météo, ils sont représentés par des isobares proches les unes des autres, avec des flèches qui vont dans le sens des aiguilles d'une montre (dans l'hémisphère sud) ou dans le sens contraire (dans l'hémisphère nord), en général avec un « T » dans l'isobare médian, 
             qui forme un cercle rond (la lettre peut varier selon le langage utilisé sur la carte):</p>
-            <button type="button" class="dep">Différents Dépressions</button>
         </div>    
         <div class="toutcarre1">
             <div class="rectangle1">
@@ -173,6 +161,7 @@
             <a href="https://meteofrance.com/" target="_blank">MétéoFrance</a>
             <a href="https://www.meteociel.fr/" target="_blank">MétéoCiel</a>
             <a href="https://www.infoclimat.fr/" target="_blank">InfosClimat</a>
+            <a href="https://www.meteoblue.com/" target="_blank">MeteoBlue</a>
             <a href="https://www.keraunos.org/" target="_blank">Keraunos</a>
         </nav>
     </nav>
