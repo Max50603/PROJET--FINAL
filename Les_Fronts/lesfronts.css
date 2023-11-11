@@ -74,10 +74,6 @@ body{
     overflow-x: hidden;
 }
 
-html{
-    background-color: white;
-}
-
 .scroll{
     width: 50px;
     height: 50px;

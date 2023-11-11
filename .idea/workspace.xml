@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="693cd7ef-d9c5-4b07-8f22-67151b1282eb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/.~lock.Text Anglais.odt#" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/.~lock.Text Anglais.odt#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PROJET/Text Anglais.odt" beforeDir="false" afterPath="$PROJECT_DIR$/PROJET/Text Anglais.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Le_Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Orages/Orages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/Orages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Les_Orages/lesorages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/lesorages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page_Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +143,14 @@
       <workItem from="1698220814068" duration="17000" />
       <workItem from="1698240200512" duration="2561000" />
       <workItem from="1698304366893" duration="2735000" />
+      <workItem from="1698677919684" duration="53000" />
+      <workItem from="1698677991695" duration="269000" />
+      <workItem from="1698980464893" duration="26000" />
+      <workItem from="1699058595360" duration="166000" />
+      <workItem from="1699298208707" duration="6000" />
+      <workItem from="1699298222140" duration="2000" />
+      <workItem from="1699345479062" duration="365000" />
+      <workItem from="1699693239038" duration="8000" />
     </task>
     <servers />
   </component>

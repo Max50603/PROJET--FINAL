@@ -86,10 +86,6 @@ body, section, p, li, a{
     right: 0;
 }
 
-html{
-    background-color: white;
-}
-
 .scroll{
     width: 50px;
     height: 50px;
