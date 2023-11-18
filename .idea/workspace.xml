@@ -9,13 +9,6 @@
       <change beforePath="$PROJECT_DIR$/Le_Vent/levent.css" beforeDir="false" afterPath="$PROJECT_DIR$/Le_Vent/levent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/Les Fronts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Fronts/lesfronts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Nuages/lesnuages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Orages/Orages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/Orages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Les_Orages/lesorages.css" beforeDir="false" afterPath="$PROJECT_DIR$/Les_Orages/lesorages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Météorologie_Générale/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Météorologie_Générale/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Météo/pagemeteo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page_Principale/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page_Principale/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -151,6 +144,12 @@
       <workItem from="1699298222140" duration="2000" />
       <workItem from="1699345479062" duration="365000" />
       <workItem from="1699693239038" duration="8000" />
+      <workItem from="1700006725629" duration="81000" />
+      <workItem from="1700024262807" duration="424000" />
+      <workItem from="1700038592786" duration="545000" />
+      <workItem from="1700096005083" duration="39000" />
+      <workItem from="1700180599400" duration="10000" />
+      <workItem from="1700287887806" duration="105000" />
     </task>
     <servers />
   </component>

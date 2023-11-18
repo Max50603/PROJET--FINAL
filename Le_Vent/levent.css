@@ -130,6 +130,7 @@ section h2, h2{
     color: white;
     padding: 10px;
     font-size: 2em;
+    margin-bottom: 0;
 }
 
 section p, .grid p{
@@ -175,14 +176,5 @@ article{
 /* FIN DU CORPS DE PAGE */
 
 /* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion{
-    position: relative;
-    top: 0;
-    left: 100px;
-}
 
-.connexion a{
-    text-decoration: underline;
-    color: black;
-}
 /* FIN PARTIE CONNEXION */

@@ -176,19 +176,8 @@ section img{
     margin: 30px;
 }
 /* PARTIE RESPONSIVE */
+@media only screen and  (max-width: ){
 
+}
 /* FIN DE LA PARTIE RESPONSIVE */
 /* FIN DE CORPS DE PAGE */
-
-/* PARTIE CONNEXION EN HAUT DE PAGE */
-.connexion a{
-    font-weight: 800;
-    font-size: 15px;
-    text-decoration: underline;
-    position: relative;
-    left: 100px;
-    color: black;
-}
-/* FIN PARTIE CONNEXION */
-
-/* PARTIE NAVBAR */
