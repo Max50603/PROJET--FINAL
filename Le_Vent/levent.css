@@ -152,11 +152,14 @@ article{
         font-size: 1.4em;
         text-align: center;
     }
-    .grid{
+    .grid, .centre{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         justify-items: center;
+    }
+    .grid p{
+        text-align: justify;
     }
     .g1{
         grid-column: 1;
@@ -173,8 +176,122 @@ article{
         grid-row: 1;
     }
 }
+
+/* PARTIE RESPONSIVE */
+@media only screen and (max-width: 1520px){
+    body{
+        width: auto;
+        height: auto;
+    }
+
+    .pages{
+        width: auto;
+        height: 100px;
+    }
+
+    .pages a{
+        font-size: 1.2em;
+    }
+
+    h1{
+        font-size: 4em !important;
+    }
+}
+
+@media only screen and (max-width: 1470px){
+    article .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 0.5fr);
+    }
+
+    article .grid .g1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    article .grid .p1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    article .grid .g2{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    article .grid .p2{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    article .grid .g3{
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    article .grid .p3{
+        grid-column: 1;
+        grid-row: 6;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .pages a{
+        font-size: 1em;
+    }
+
+    h1{
+        font-size: 3em !important;
+        border: none !important;
+    }
+
+    h2, p{
+        font-size: 1.2em !important;
+    }
+}
+
+@media only screen and (max-width: 1245px){
+    .pages{
+        height: 80px;
+    }
+    
+    .pages a{
+        font-size: 1em;
+        margin: 18px;
+    }
+
+    .liens{
+        height: 80px;
+    }
+
+    .liens a{
+        font-size: 1.2em;
+        margin: 18px;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    .scroll{
+        display: none;
+    }
+    
+    body{
+        
+    }
+    
+    section h1{
+        animation: none;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    
+}
+/* FIN PARTIE RESPONSIVE */
 /* FIN DU CORPS DE PAGE */
-
-/* PARTIE CONNEXION EN HAUT DE PAGE */
-
-/* FIN PARTIE CONNEXION */
