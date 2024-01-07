@@ -1,5 +1,6 @@
 body{
     width: 1500px;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     background-color: #1d1e31;
@@ -18,18 +19,13 @@ body{
     right: 0;
 }
 /* PARTIE HEADER ET LIENBAR */
-nav{
-    background-color: #fec675;
-    width: 100%;
-    height: 100px;
-}
-
 .liens{
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fec675;
 }
 
 .liens a{
@@ -136,6 +132,10 @@ nav{
     margin: 0;
 }
 
+.responsive{
+    display: none;
+}
+
 @keyframes slide{
     0%{
         transform: translateX(-100%);
@@ -223,3 +223,196 @@ nav{
     text-decoration: none;
     color: white;
 }
+
+/* PARTIE RESPONSIVE */
+@media only screen and (max-width: 1545px){
+    body{
+        width: auto;
+    }
+    
+    .presentation img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .presentation h1{
+        font-size: 5em;
+    }
+
+    .presentation p{
+        font-size: 1.4em;
+    }
+
+    .infos, .cv{
+        font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 1320px){
+    .button{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .presentation img{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 1160px){
+    .presentation h1{
+        font-size: 4em;
+    }
+
+    .presentation p{
+        font-size: 1.2em;
+    }
+
+    .presentation img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .infos, .cv{
+        font-size: 1.2em;
+    }
+
+    .container{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .presentation img{
+        margin: 40px 40px 100px 0;
+    }
+
+    .presentation .texte{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .presentation h1{
+        font-size: 3em;
+    }
+
+    .presentation p{
+        font-size: 1em;
+    }
+
+    .presentation img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .cv .tex, .infos{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 430px;
+        height: auto;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+    .presentation .texte{
+        width: 410px;
+        margin: 10px;
+    }
+
+    .presentation{
+        width: 410px;
+        margin-bottom: 50px;
+    }
+
+    .presentation img{
+        display: none;
+    }
+
+    .presentation h1{
+        animation: none;
+        margin: 10px;
+        width: 410px;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .presentation p{
+        width: 410px;
+        margin: 30px 10px;
+    }
+
+    
+    .presentation .image .responsive{
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .presentation .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button .infos, .button .cv{
+        margin: 10px;
+        font-size: 1em;
+    }
+
+    .button{
+        width: 410px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .container{
+        width: 410px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .texte p{
+        font-size: 1em;
+    }
+
+    .bloc{
+        height: 50px;
+    }
+
+    .bloc h1{
+        font-size: 1.2em;
+        margin: 10px;
+    }
+
+    .bloc img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .texte .lien1 a{
+        font-size: 1em;
+    }
+
+    .texte .lien1{
+        width: 150px;
+        height: 50px;
+    }
+
+    .liens{
+        display: none;
+    }
+}
+/* FIN DE LA RESPONSIVE */
