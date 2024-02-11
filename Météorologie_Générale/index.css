@@ -295,6 +295,108 @@ h1{
     text-align: justify;
 }
 
-@media only screen and(max-width: ){
-
+/*! PARTIE RESPONSIVE */
+@media only screen and (max-width: 1520px){
+    body{
+        width: auto;
+    }
 }
+
+@media only screen and (max-width: 1400px){
+    header .pages a{
+        font-size: 1.2em;
+        margin: 0 30px;
+    }
+
+    .haute-pression .texte h1{
+        font-size: 5em;
+    }
+
+    .haute-pression .flex img, .basse-pression .flex img, .pression .flex img{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 1190px){
+    .haute-pression .texte h1{
+        font-size: 4em;
+        border: none;
+    }
+
+    .haute-pression .titre h2, .basse-pression .titre h2, .pression .titre h2, .anticyclone h2, .depression h2{
+        font-size: 2em;
+    }
+
+    .haute-pression .texte p, li, .basse-pression .texte p, .pression .texte p, .anticyclone .texte p, .depression .texte p, .carre2 p, .carre1 p, .carre3 p, .rectangle1 p, .rectangle2 p{
+        font-size: 1.2em;
+    }
+
+    .haute-pression .flex img, .basse-pression .flex img, .pression .flex img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .toutcarre{
+        display: block;
+    }
+
+    .carre1, .carre2, .carre3{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1060px){
+    .haute-pression .texte h1{
+        font-size: 3em;
+        width: auto;
+    }
+
+    header .pages a{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    
+    .toutcarre1{
+        display: block;
+    }
+
+    .rectangle1, .rectangle2{
+        width: auto;
+        height: auto;
+    }
+
+    header .pages a{
+        font-size: 0.8em;
+        margin: 10px;
+    }
+
+    .liens{
+        display: none;
+    }
+
+    .haute-pression .flex img, .basse-pression .flex img, .pression .flex img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 615px){
+    .haute-pression .texte h1{
+        font-size: 2em;
+        animation: none;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        width: 430px;
+        height: auto;
+    }
+
+    
+}
+/*! FIN PARTIE RESPONSIVE */
